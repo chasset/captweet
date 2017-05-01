@@ -1,6 +1,6 @@
 {
   "name": "captweet",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Capture tweets easily.",
   "main": "lib/index.js",
   "scripts": {
