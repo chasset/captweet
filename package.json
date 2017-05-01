@@ -1,0 +1,51 @@
+{
+  "name": "captweet",
+  "version": "0.0.0",
+  "description": "Capture tweets easily.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasset/captweet.git"
+  },
+  "keywords": [
+    "twitter",
+    "tweet",
+    "capture",
+    "api"
+  ],
+  "author": "Pierre-Olivier Chasset <pierre-olivier@chasset.net> (http://pierre-olivier.chasset.net)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/chasset/captweet/issues"
+  },
+  "homepage": "https://github.com/chasset/captweet#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^4.3.1",
+    "mocha": "^3.3.0",
+    "run-sequence": "^1.2.2",
+    "unit.js": "^2.0.0"
+  },
+  "dependencies": {
+    "args": "^2.6.1",
+    "babel-polyfill": "^6.23.0",
+    "big-integer": "^1.6.22",
+    "co": "^4.6.0",
+    "js-yaml": "^3.8.3",
+    "mongodb": "^2.2.26",
+    "twit": "^2.2.5"
+  }
+}
