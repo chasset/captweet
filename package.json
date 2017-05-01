@@ -1,0 +1,25 @@
+{
+  "name": "captweet",
+  "version": "0.0.0",
+  "description": "Capture tweets easily.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasset/captweet.git"
+  },
+  "keywords": [
+    "twitter",
+    "tweet",
+    "capture",
+    "api"
+  ],
+  "author": "Pierre-Olivier Chasset <pierre-olivier@chasset.net> (http://pierre-olivier.chasset.net)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/chasset/captweet/issues"
+  },
+  "homepage": "https://github.com/chasset/captweet#readme"
+}
