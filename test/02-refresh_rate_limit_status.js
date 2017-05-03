@@ -31,11 +31,22 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
   (0, _mocha.it)('download at successive times the new rates', function (done) {
     var captweet = new _index2.default();
-    captweet.auto_refresh_rate_limit_status(500);
+    captweet.auto_refresh_rate_limit_status(1000).then(function () {
+      captweet.rate_limit_status = {
+        resources: {
+          application: {
+            '/application/rate_limit_status/:id/test/': {
+              remaining: 0
+            }
+          }
+        }
+      };
+    });
     setTimeout(function () {
       var rates = captweet.rate_limit_status;
       _unit2.default.object(rates).hasProperty('application/rate_limit_status').object(rates['application/rate_limit_status']).hasProperty('limit', 180);
+      clearInterval(captweet.setInterval);
       done();
-    }, 1100);
+    }, 1500);
   });
 });

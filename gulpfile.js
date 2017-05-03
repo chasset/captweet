@@ -28,7 +28,7 @@ gulp.task('transcompile', function() {
 gulp.task('test', function() {
   return gulp
     .src('test/**/*.js', { read: false })
-    .pipe(mocha({ growl: true }))
+    .pipe(mocha({ growl: true, timeout: 15000 }))
 });
 
 gulp.task('default', function() {
