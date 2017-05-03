@@ -21,7 +21,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
         application: {
           '/application/rate_limit_status/': {
             remaining: 100,
-            reset: 9493747934
+            reset: 1493747934
           }
         }
       }
@@ -39,7 +39,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
         application: {
           '/application/rate_limit_status/': {
             remaining: -1,
-            reset: 9493747934
+            reset: 1493747934
           }
         }
       }
@@ -57,7 +57,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
         application: {
           '/application/rate_limit_status/': {
             remaining: 0,
-            reset: 9493747934
+            reset: 1493747934
           }
         }
       }
@@ -75,7 +75,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
         application: {
           '/application/rate_limit_status/': {
             remaining: 1,
-            reset: 9493747934
+            reset: 1493747934
           }
         }
       }
