@@ -16,7 +16,8 @@ _args2.default.option('ini-file', 'The path of your ini file');
 var flags = _args2.default.parse(process.argv);
 
 var captweet = new _index2.default(flags.iniFile);
-captweet.refresh_rate_limit_status().then(function () {
+captweet.auto_refresh_rate_limit_status().then(function () {
+  captweet.stop_refreshing();
   var rates = captweet.rate_limit_status;
   console.log(JSON.stringify(rates, null, 2));
 });
