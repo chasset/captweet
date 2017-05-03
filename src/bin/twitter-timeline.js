@@ -20,7 +20,7 @@ let query = {
 };
 co(function*() {
   yield captweet.refresh_rate_limit_status();
-  const {tweets, min, max} = yield captweet.get_first_tweets_of_timeline(query);
+  const {tweets, min, max} = yield captweet.get_last_tweets_of_timeline(query);
   tweets.map(function(tweet) { console.log('Tweet:', tweet.id_str); });
   console.log('Min:', min.toString());
   console.log('Max:', max.toString());

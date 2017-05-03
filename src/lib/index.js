@@ -55,7 +55,7 @@ export default class Captweet {
     });
   }
 
-  get_first_tweets_of_timeline(query) {
+  get_last_tweets_of_timeline(query) {
     const captweet = this;
     return co(function*() {
       const raw_tweets = yield captweet.query('statuses/user_timeline', query);

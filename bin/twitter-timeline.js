@@ -40,7 +40,7 @@ var query = {
 
         case 2:
           _context.next = 4;
-          return captweet.get_first_tweets_of_timeline(query);
+          return captweet.get_last_tweets_of_timeline(query);
 
         case 4:
           _ref = _context.sent;

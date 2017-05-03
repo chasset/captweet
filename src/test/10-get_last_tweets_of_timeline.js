@@ -18,7 +18,7 @@ describe('get_first_tweets_of_timeline()', function() {
     };
     co(function*() {
       yield captweet.refresh_rate_limit_status();
-      const {tweets} = yield captweet.get_first_tweets_of_timeline(query);
+      const {tweets} = yield captweet.get_last_tweets_of_timeline(query);
       test.array(tweets).hasLength(200);
       done();
     }).catch(function(error) {
