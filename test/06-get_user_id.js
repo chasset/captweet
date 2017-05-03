@@ -14,7 +14,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 (0, _mocha.describe)('get_user_id_from_screen_name()', function () {
 
-  (0, _mocha.it)('download and transform correctly the data returned by Twitter', function (done) {
+  (0, _mocha.it)('fetch the id of a user', function (done) {
     var captweet = new _index2.default();
     captweet.refresh_rate_limit_status().then(function () {
       return captweet.get_user_id_from_screen_name('@mobitweet_');

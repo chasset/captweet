@@ -23,4 +23,27 @@ describe('query()', function() {
       });
   });
 
+  it('returns an error when not enough resource', function(done) {
+    const captweet = new Captweet();
+    captweet.rate_limit_status = {
+      resources: {
+        application: {
+          '/users/show/:id/test/': {
+            remaining: 0,
+          },
+        },
+      },
+    };
+    captweet.query('users/show', { screen_name: '@mobitweet_' })
+      .then(function() {
+        test.fail('No check of resource!');
+        done();
+      })
+      .catch(function(error) {
+        test.error(error)
+          .string(error.message).is('No more resource. Wait a bit.');
+        done();
+      });
+  });
+
 });
