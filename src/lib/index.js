@@ -7,6 +7,7 @@ import path from 'path';
 import yaml from 'js-yaml';
 import Twit from 'twit';
 import co from 'co';
+import bigInt from 'big-integer';
 
 const RATE_LIMIT_STATUS = Symbol();
 
@@ -22,6 +23,53 @@ export default class Captweet {
       timeout_ms: 60000,
     };
     this.twitter = new Twit(tokens);
+  }
+
+  get_whole_timeline(user, since_id) {
+    const captweet = this;
+    return co(function*() {
+      let max_id, count = 200, nbr = count, total, timeline = [];
+      let query = {
+        user_id: captweet.get_user_id_from_screen_name(user),
+        count: count, // Maximum 200
+        trim_user: true,
+        exclude_replies: false,
+        contributor_details: true,
+        include_rts: true,
+      };
+      if (since_id) { query.since_id = since_id; }
+      console.info('Beginning downloading of the whole timeline');
+      while (nbr >= count) {
+        const {tweets, min, max} = yield captweet.get_first_tweets_of_timeline(query);
+        timeline.push(tweets);
+        max_id = min.add(-1);
+        query.max_id = max_id;
+        console.log('Max_id:', max_id);
+        if (!since_id || max.greater(since_id) ) { since_id = max; }
+        nbr = tweets.length;
+        total += nbr;
+      }
+      console.warn('Enregistrer quelque part since_id pour éviter de réitérer sur toute la timeline:', since_id);
+      console.info('Nombre de tweets:', total);
+      return timeline;
+    });
+  }
+
+  get_first_tweets_of_timeline(query) {
+    const captweet = this;
+    return co(function*() {
+      let tweets = yield captweet.query('statuses/user_timeline', query);
+      let min, max;
+      tweets.map(function(tweet) {
+        tweet._id = tweet.id_str;
+        const id = bigInt(tweet.id_str);
+        console.log('Tweet ID:', id);
+        if (!min && !max) { min = max = id; }
+        if (min.greater(id)) { min = id; }
+        if (id.greater(max)) { max = id; }
+      });
+      return {tweets, min, max};
+    });
   }
 
   get_user_id_from_screen_name(user) {
