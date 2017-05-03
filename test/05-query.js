@@ -38,7 +38,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
         }
       }
     };
-    captweet.query('users/show', { screen_name: '@mobitweet_' }).then(function (data) {
+    captweet.query('users/show', { screen_name: '@mobitweet_' }).then(function () {
       _unit2.default.fail('No check of resource!');
       done();
     }).catch(function (error) {

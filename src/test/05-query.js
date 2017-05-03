@@ -35,7 +35,7 @@ describe('query()', function() {
       },
     };
     captweet.query('users/show', { screen_name: '@mobitweet_' })
-      .then(function(data) {
+      .then(function() {
         test.fail('No check of resource!');
         done();
       })
