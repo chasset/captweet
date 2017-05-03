@@ -29,7 +29,18 @@ describe('auto_refresh_rate_limit_status', function() {
 
   it('download at successive times the new rates', function(done) {
     const captweet = new Captweet();
-    captweet.auto_refresh_rate_limit_status(500);
+    captweet.auto_refresh_rate_limit_status(1000)
+      .then(function() {
+        captweet.rate_limit_status = {
+          resources: {
+            application: {
+              '/application/rate_limit_status/:id/test/': {
+                remaining: 0,
+              },
+            },
+          },
+        };
+      });
     setTimeout(function() {
       const rates = captweet.rate_limit_status;
       test
@@ -37,8 +48,9 @@ describe('auto_refresh_rate_limit_status', function() {
         .hasProperty('application/rate_limit_status')
         .object(rates['application/rate_limit_status'])
         .hasProperty('limit', 180);
+      clearInterval(captweet.setInterval);
       done();
-    }, 1100);
+    }, 1500);
 
   });
 

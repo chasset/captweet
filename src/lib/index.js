@@ -13,7 +13,7 @@ const RATE_LIMIT_STATUS = Symbol();
 
 export default class Captweet {
 
-  constructor(iniFile) {
+  constructor(iniFile, verbose) {
     if (!iniFile) { iniFile = path.join(os.homedir(), 'ini.yaml'); }
     const ini = yaml.safeLoad(fs.readFileSync(iniFile, 'utf8'));
     const tokens = {
@@ -23,35 +23,37 @@ export default class Captweet {
       timeout_ms: 60000,
     };
     this.twitter = new Twit(tokens);
+    this.verbose = verbose;
   }
 
-  get_whole_timeline(user, since_id) {
+  get_whole_timeline(user_id, since_id) {
     const captweet = this;
     return co(function*() {
-      let max_id, count = 200, nbr = count, total, timeline = [];
+      const count = 200; // Maximum 200
+      let nbr = count;
+      let timeline = [];
+      let go = true;
       let query = {
-        user_id: captweet.get_user_id_from_screen_name(user),
-        count: count, // Maximum 200
+        user_id: user_id,
+        count: count, 
         trim_user: true,
         exclude_replies: false,
         contributor_details: true,
         include_rts: true,
       };
-      if (since_id) { query.since_id = since_id; }
-      console.info('Beginning downloading of the whole timeline');
-      while (nbr >= count) {
-        const {tweets, min, max} = yield captweet.get_first_tweets_of_timeline(query);
-        timeline.push(tweets);
-        max_id = min.add(-1);
-        query.max_id = max_id;
-        console.log('Max_id:', max_id);
-        if (!since_id || max.greater(since_id) ) { since_id = max; }
+      if (since_id) { query.since_id = since_id.toString(); }
+      if (captweet.verbose) { console.warn('Beginning to download the whole timeline of user', user_id); }
+      while (go) {
+        const { tweets, min, max } = yield captweet.get_last_tweets_of_timeline(query);
         nbr = tweets.length;
-        total += nbr;
+        if (nbr > 0) {
+          timeline = timeline.concat(tweets);
+          query.max_id = min.add(-1).toString();
+          if (!since_id || max.greater(since_id) ) { since_id = max; }
+          if (captweet.verbose) { console.warn('Tweets ID between', max.toString(), 'and', min.toString(), 'retrieved.'); }
+        } else { go = false; }
       }
-      console.warn('Enregistrer quelque part since_id pour éviter de réitérer sur toute la timeline:', since_id);
-      console.info('Nombre de tweets:', total);
-      return timeline;
+      return { user_id, timeline, since_id };
     });
   }
 
@@ -87,7 +89,14 @@ export default class Captweet {
   auto_refresh_rate_limit_status(interval) {
     const delay = interval ? interval : 15*60*1000;
     const captweet = this;
-    return setInterval(function() { captweet.refresh_rate_limit_status(); }, delay);
+    this.setInterval = setInterval(function() { captweet.refresh_rate_limit_status(); }, delay);
+    if (this.verbose) { console.warn('Start refreshing automatically Rate limit status.'); }
+    return this.refresh_rate_limit_status();
+  }
+
+  stop_refreshing() {
+    clearInterval(this.setInterval); 
+    if (this.verbose) { console.warn('Stop refreshing automatically Rate limit status.'); }
   }
 
   refresh_rate_limit_status() {
@@ -97,20 +106,28 @@ export default class Captweet {
       const query = {};
       const result = yield captweet.twitter.get(resource, query);
       captweet.rate_limit_status = result.data;
+      if (captweet.verbose) { console.warn('Rate limit status refreshed.'); }
     });
   }
 
   query(resource, query) {
     const captweet = this;
-    return co(function*() {
+    return new Promise(function(resolve) {
       if (captweet.is_allowed(resource)) {
-        const result = yield captweet.twitter.get(resource, query);
-        return result.data;
-      } else { throw new Error('No more resource. Wait a bit.'); }
+        captweet.twitter.get(resource, query)
+          .then(function(result) { resolve(result.data); });
+      }
     });
   }
 
-  is_allowed(resource) { return this[RATE_LIMIT_STATUS][resource].remaining-- > 0; }
+  is_allowed(resource) {
+    const rate = this[RATE_LIMIT_STATUS][resource].remaining--;
+    if (this.verbose && rate === 0) { 
+      console.warn('Resource', resource, 'reached its rate limit.');
+      console.warn('Wait', Math.round(this[RATE_LIMIT_STATUS][resource].reset - Date.now()/1000), 'seconds to get more resources.');
+    }
+    return rate > 0; 
+  }
 
   set rate_limit_status(data) {
     this[RATE_LIMIT_STATUS] = {};
