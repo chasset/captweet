@@ -1,0 +1,2225 @@
+date: '2017-05-03T20:23:25.895Z'
+length: 10
+max_id: '859030388429250559'
+since_id: '859476287068319744'
+tweets:
+  - _id: '859476287068319744'
+    contributors: null
+    coordinates: null
+    created_at: 'Tue May 02 18:34:49 +0000 2017'
+    entities:
+      hashtags: []
+      symbols: []
+      urls: []
+      user_mentions:
+        - id: 29018269
+          id_str: '29018269'
+          indices:
+            - 3
+            - 10
+          name: Vijaya Gadde
+          screen_name: vijaya
+        - id: 61730263
+          id_str: '61730263'
+          indices:
+            - 25
+            - 39
+          name: Chaitanya R
+          screen_name: cramachandran
+        - id: 783214
+          id_str: '783214'
+          indices:
+            - 41
+            - 49
+          name: Twitter
+          screen_name: Twitter
+    favorite_count: 0
+    favorited: false
+    geo: null
+    id: 859476287068319700
+    id_str: '859476287068319744'
+    in_reply_to_screen_name: null
+    in_reply_to_status_id: null
+    in_reply_to_status_id_str: null
+    in_reply_to_user_id: null
+    in_reply_to_user_id_str: null
+    is_quote_status: false
+    lang: en
+    place: null
+    retweet_count: 25
+    retweeted: false
+    retweeted_status:
+      contributors: null
+      coordinates: null
+      created_at: 'Tue May 02 18:34:37 +0000 2017'
+      entities:
+        hashtags: []
+        symbols: []
+        urls:
+          - display_url: go.shr.lc/2ptnmCh
+            expanded_url: 'http://go.shr.lc/2ptnmCh'
+            indices:
+              - 106
+              - 129
+            url: 'https://t.co/axalrYzjFh'
+        user_mentions:
+          - id: 61730263
+            id_str: '61730263'
+            indices:
+              - 13
+              - 27
+            name: Chaitanya R
+            screen_name: cramachandran
+          - id: 783214
+            id_str: '783214'
+            indices:
+              - 29
+              - 37
+            name: Twitter
+            screen_name: Twitter
+      favorite_count: 123
+      favorited: false
+      geo: null
+      id: 859476234371080200
+      id_str: '859476234371080192'
+      in_reply_to_screen_name: null
+      in_reply_to_status_id: null
+      in_reply_to_status_id_str: null
+      in_reply_to_user_id: null
+      in_reply_to_user_id_str: null
+      is_quote_status: false
+      lang: en
+      place: null
+      possibly_sensitive: false
+      retweet_count: 25
+      retweeted: false
+      source: '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>'
+      text: >-
+        Our very own @cramachandran, @twitter's super lawyer in India, on
+        technology and law, and his experience! https://t.co/axalrYzjFh
+      truncated: false
+      user:
+        contributors_enabled: false
+        created_at: 'Sun Apr 05 16:59:26 +0000 2009'
+        default_profile: true
+        default_profile_image: false
+        description: >-
+          General Counsel at Twitter. Immigrant from India, but America is MY
+          country now. Investor with @HelloAngels. Trustee at @nyulaw. Tweets
+          here are personal.
+        entities:
+          description:
+            urls: []
+        favourites_count: 13194
+        follow_request_sent: null
+        followers_count: 33323
+        following: null
+        friends_count: 1039
+        geo_enabled: true
+        has_extended_profile: true
+        id: 29018269
+        id_str: '29018269'
+        is_translation_enabled: false
+        is_translator: false
+        lang: en
+        listed_count: 396
+        location: San Francisco
+        name: Vijaya Gadde
+        notifications: null
+        profile_background_color: C0DEED
+        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png'
+        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png'
+        profile_background_tile: false
+        profile_banner_url: 'https://pbs.twimg.com/profile_banners/29018269/1491331861'
+        profile_image_url: >-
+          http://pbs.twimg.com/profile_images/509923332406251521/BpZnwI1l_normal.jpeg
+        profile_image_url_https: >-
+          https://pbs.twimg.com/profile_images/509923332406251521/BpZnwI1l_normal.jpeg
+        profile_link_color: 1DA1F2
+        profile_sidebar_border_color: C0DEED
+        profile_sidebar_fill_color: DDEEF6
+        profile_text_color: '333333'
+        profile_use_background_image: true
+        protected: false
+        screen_name: vijaya
+        statuses_count: 2446
+        time_zone: Pacific Time (US & Canada)
+        translator_type: none
+        url: null
+        utc_offset: -25200
+        verified: false
+    source: >-
+      <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    text: >-
+      RT @vijaya: Our very own @cramachandran, @twitter's super lawyer in India,
+      on technology and law, and his experience! https://t.co/axalrYzj…
+    truncated: false
+    user:
+      contributors_enabled: false
+      created_at: 'Tue Mar 21 20:50:14 +0000 2006'
+      default_profile: false
+      default_profile_image: false
+      description: ''
+      entities:
+        description:
+          urls: []
+      favourites_count: 16960
+      follow_request_sent: null
+      followers_count: 4039998
+      following: null
+      friends_count: 2703
+      geo_enabled: true
+      has_extended_profile: true
+      id: 12
+      id_str: '12'
+      is_translation_enabled: false
+      is_translator: false
+      lang: en
+      listed_count: 27194
+      location: 'California, USA'
+      name: jack
+      notifications: null
+      profile_background_color: EBEBEB
+      profile_background_image_url: 'http://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_tile: false
+      profile_banner_url: 'https://pbs.twimg.com/profile_banners/12/1483046077'
+      profile_image_url: >-
+        http://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_image_url_https: >-
+        https://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_link_color: '990000'
+      profile_sidebar_border_color: DFDFDF
+      profile_sidebar_fill_color: F3F3F3
+      profile_text_color: '333333'
+      profile_use_background_image: true
+      protected: false
+      screen_name: jack
+      statuses_count: 21832
+      time_zone: Pacific Time (US & Canada)
+      translator_type: regular
+      url: null
+      utc_offset: -25200
+      verified: true
+  - _id: '859444604697026560'
+    contributors: null
+    coordinates: null
+    created_at: 'Tue May 02 16:28:56 +0000 2017'
+    entities:
+      hashtags:
+        - indices:
+            - 55
+            - 64
+          text: StayWoke
+      media:
+        - display_url: pic.twitter.com/zj2sNaDBiK
+          expanded_url: 'https://twitter.com/OfficialCBC/status/859426548398608385/video/1'
+          id: 859426505373470700
+          id_str: '859426505373470724'
+          indices:
+            - 83
+            - 106
+          media_url: >-
+            http://pbs.twimg.com/ext_tw_video_thumb/859426505373470724/pu/img/ikx4QRrM3ECRV7P0.jpg
+          media_url_https: >-
+            https://pbs.twimg.com/ext_tw_video_thumb/859426505373470724/pu/img/ikx4QRrM3ECRV7P0.jpg
+          sizes:
+            large:
+              h: 720
+              resize: fit
+              w: 720
+            medium:
+              h: 600
+              resize: fit
+              w: 600
+            small:
+              h: 340
+              resize: fit
+              w: 340
+            thumb:
+              h: 150
+              resize: crop
+              w: 150
+          source_status_id: 859426548398608400
+          source_status_id_str: '859426548398608385'
+          source_user_id: 233783568
+          source_user_id_str: '233783568'
+          type: photo
+          url: 'https://t.co/zj2sNaDBiK'
+      symbols: []
+      urls: []
+      user_mentions:
+        - id: 233783568
+          id_str: '233783568'
+          indices:
+            - 3
+            - 15
+          name: The CBC
+          screen_name: OfficialCBC
+        - id: 267854863
+          id_str: '267854863'
+          indices:
+            - 22
+            - 34
+          name: Rep Cedric Richmond
+          screen_name: RepRichmond
+    extended_entities:
+      media:
+        - additional_media_info:
+            monetizable: false
+            source_user:
+              contributors_enabled: false
+              created_at: 'Tue Jan 04 03:01:43 +0000 2011'
+              default_profile: false
+              default_profile_image: false
+              description: >-
+                The Congressional Black Caucus was established in 1971. Tweets
+                document the work of the caucus chairman @RepRichmond and 48
+                other members.
+              entities:
+                description:
+                  urls: []
+                url:
+                  urls:
+                    - display_url: cbc.house.gov
+                      expanded_url: 'http://cbc.house.gov'
+                      indices:
+                        - 0
+                        - 23
+                      url: 'https://t.co/FRZSxTsjrl'
+              favourites_count: 178
+              follow_request_sent: null
+              followers_count: 59110
+              following: null
+              friends_count: 528
+              geo_enabled: true
+              has_extended_profile: false
+              id: 233783568
+              id_str: '233783568'
+              is_translation_enabled: false
+              is_translator: false
+              lang: en
+              listed_count: 854
+              location: Capitol Hill
+              name: The CBC
+              notifications: null
+              profile_background_color: ABB8C2
+              profile_background_image_url: >-
+                http://pbs.twimg.com/profile_background_images/378800000104033685/67552712633f757cc94cd7c916089ff5.jpeg
+              profile_background_image_url_https: >-
+                https://pbs.twimg.com/profile_background_images/378800000104033685/67552712633f757cc94cd7c916089ff5.jpeg
+              profile_background_tile: false
+              profile_banner_url: 'https://pbs.twimg.com/profile_banners/233783568/1488991597'
+              profile_image_url: >-
+                http://pbs.twimg.com/profile_images/839513060226256897/2Bi-rAww_normal.jpg
+              profile_image_url_https: >-
+                https://pbs.twimg.com/profile_images/839513060226256897/2Bi-rAww_normal.jpg
+              profile_link_color: 080770
+              profile_sidebar_border_color: FFFFFF
+              profile_sidebar_fill_color: EDE3E1
+              profile_text_color: '333333'
+              profile_use_background_image: false
+              protected: false
+              screen_name: OfficialCBC
+              statuses_count: 11123
+              time_zone: Eastern Time (US & Canada)
+              translator_type: none
+              url: 'https://t.co/FRZSxTsjrl'
+              utc_offset: -14400
+              verified: true
+          display_url: pic.twitter.com/zj2sNaDBiK
+          expanded_url: 'https://twitter.com/OfficialCBC/status/859426548398608385/video/1'
+          id: 859426505373470700
+          id_str: '859426505373470724'
+          indices:
+            - 83
+            - 106
+          media_url: >-
+            http://pbs.twimg.com/ext_tw_video_thumb/859426505373470724/pu/img/ikx4QRrM3ECRV7P0.jpg
+          media_url_https: >-
+            https://pbs.twimg.com/ext_tw_video_thumb/859426505373470724/pu/img/ikx4QRrM3ECRV7P0.jpg
+          sizes:
+            large:
+              h: 720
+              resize: fit
+              w: 720
+            medium:
+              h: 600
+              resize: fit
+              w: 600
+            small:
+              h: 340
+              resize: fit
+              w: 340
+            thumb:
+              h: 150
+              resize: crop
+              w: 150
+          source_status_id: 859426548398608400
+          source_status_id_str: '859426548398608385'
+          source_user_id: 233783568
+          source_user_id_str: '233783568'
+          type: video
+          url: 'https://t.co/zj2sNaDBiK'
+          video_info:
+            aspect_ratio:
+              - 1
+              - 1
+            duration_millis: 22433
+            variants:
+              - content_type: application/x-mpegURL
+                url: >-
+                  https://video.twimg.com/ext_tw_video/859426505373470724/pu/pl/76U0rEd3PvjR2_IS.m3u8
+              - bitrate: 832000
+                content_type: video/mp4
+                url: >-
+                  https://video.twimg.com/ext_tw_video/859426505373470724/pu/vid/480x480/ZTfxSrPTvzthxX7J.mp4
+              - bitrate: 1280000
+                content_type: video/mp4
+                url: >-
+                  https://video.twimg.com/ext_tw_video/859426505373470724/pu/vid/720x720/6B-mcURkVlpQ0Rl-.mp4
+              - bitrate: 320000
+                content_type: video/mp4
+                url: >-
+                  https://video.twimg.com/ext_tw_video/859426505373470724/pu/vid/240x240/Bt6-JcC4zAKfVk7R.mp4
+    favorite_count: 0
+    favorited: false
+    geo: null
+    id: 859444604697026600
+    id_str: '859444604697026560'
+    in_reply_to_screen_name: null
+    in_reply_to_status_id: null
+    in_reply_to_status_id_str: null
+    in_reply_to_user_id: null
+    in_reply_to_user_id_str: null
+    is_quote_status: false
+    lang: en
+    place: null
+    possibly_sensitive: false
+    retweet_count: 52
+    retweeted: false
+    retweeted_status:
+      contributors: null
+      coordinates: null
+      created_at: 'Tue May 02 15:17:11 +0000 2017'
+      entities:
+        hashtags:
+          - indices:
+              - 38
+              - 47
+            text: StayWoke
+        media:
+          - display_url: pic.twitter.com/zj2sNaDBiK
+            expanded_url: 'https://twitter.com/OfficialCBC/status/859426548398608385/video/1'
+            id: 859426505373470700
+            id_str: '859426505373470724'
+            indices:
+              - 66
+              - 89
+            media_url: >-
+              http://pbs.twimg.com/ext_tw_video_thumb/859426505373470724/pu/img/ikx4QRrM3ECRV7P0.jpg
+            media_url_https: >-
+              https://pbs.twimg.com/ext_tw_video_thumb/859426505373470724/pu/img/ikx4QRrM3ECRV7P0.jpg
+            sizes:
+              large:
+                h: 720
+                resize: fit
+                w: 720
+              medium:
+                h: 600
+                resize: fit
+                w: 600
+              small:
+                h: 340
+                resize: fit
+                w: 340
+              thumb:
+                h: 150
+                resize: crop
+                w: 150
+            type: photo
+            url: 'https://t.co/zj2sNaDBiK'
+        symbols: []
+        urls: []
+        user_mentions:
+          - id: 267854863
+            id_str: '267854863'
+            indices:
+              - 5
+              - 17
+            name: Rep Cedric Richmond
+            screen_name: RepRichmond
+      extended_entities:
+        media:
+          - additional_media_info:
+              monetizable: false
+            display_url: pic.twitter.com/zj2sNaDBiK
+            expanded_url: 'https://twitter.com/OfficialCBC/status/859426548398608385/video/1'
+            id: 859426505373470700
+            id_str: '859426505373470724'
+            indices:
+              - 66
+              - 89
+            media_url: >-
+              http://pbs.twimg.com/ext_tw_video_thumb/859426505373470724/pu/img/ikx4QRrM3ECRV7P0.jpg
+            media_url_https: >-
+              https://pbs.twimg.com/ext_tw_video_thumb/859426505373470724/pu/img/ikx4QRrM3ECRV7P0.jpg
+            sizes:
+              large:
+                h: 720
+                resize: fit
+                w: 720
+              medium:
+                h: 600
+                resize: fit
+                w: 600
+              small:
+                h: 340
+                resize: fit
+                w: 340
+              thumb:
+                h: 150
+                resize: crop
+                w: 150
+            type: video
+            url: 'https://t.co/zj2sNaDBiK'
+            video_info:
+              aspect_ratio:
+                - 1
+                - 1
+              duration_millis: 22433
+              variants:
+                - content_type: application/x-mpegURL
+                  url: >-
+                    https://video.twimg.com/ext_tw_video/859426505373470724/pu/pl/76U0rEd3PvjR2_IS.m3u8
+                - bitrate: 832000
+                  content_type: video/mp4
+                  url: >-
+                    https://video.twimg.com/ext_tw_video/859426505373470724/pu/vid/480x480/ZTfxSrPTvzthxX7J.mp4
+                - bitrate: 1280000
+                  content_type: video/mp4
+                  url: >-
+                    https://video.twimg.com/ext_tw_video/859426505373470724/pu/vid/720x720/6B-mcURkVlpQ0Rl-.mp4
+                - bitrate: 320000
+                  content_type: video/mp4
+                  url: >-
+                    https://video.twimg.com/ext_tw_video/859426505373470724/pu/vid/240x240/Bt6-JcC4zAKfVk7R.mp4
+      favorite_count: 123
+      favorited: false
+      geo: null
+      id: 859426548398608400
+      id_str: '859426548398608385'
+      in_reply_to_screen_name: null
+      in_reply_to_status_id: null
+      in_reply_to_status_id_str: null
+      in_reply_to_user_id: null
+      in_reply_to_user_id_str: null
+      is_quote_status: false
+      lang: en
+      place: null
+      possibly_sensitive: false
+      retweet_count: 52
+      retweeted: false
+      source: '<a href="http://twitter.com" rel="nofollow">Twitter QandA</a>'
+      text: >-
+        Join @RepRichmond as he kicks off our #StayWoke Twitter Town hall
+        https://t.co/zj2sNaDBiK
+      truncated: false
+      user:
+        contributors_enabled: false
+        created_at: 'Tue Jan 04 03:01:43 +0000 2011'
+        default_profile: false
+        default_profile_image: false
+        description: >-
+          The Congressional Black Caucus was established in 1971. Tweets
+          document the work of the caucus chairman @RepRichmond and 48 other
+          members.
+        entities:
+          description:
+            urls: []
+          url:
+            urls:
+              - display_url: cbc.house.gov
+                expanded_url: 'http://cbc.house.gov'
+                indices:
+                  - 0
+                  - 23
+                url: 'https://t.co/FRZSxTsjrl'
+        favourites_count: 178
+        follow_request_sent: null
+        followers_count: 59110
+        following: null
+        friends_count: 528
+        geo_enabled: true
+        has_extended_profile: false
+        id: 233783568
+        id_str: '233783568'
+        is_translation_enabled: false
+        is_translator: false
+        lang: en
+        listed_count: 854
+        location: Capitol Hill
+        name: The CBC
+        notifications: null
+        profile_background_color: ABB8C2
+        profile_background_image_url: >-
+          http://pbs.twimg.com/profile_background_images/378800000104033685/67552712633f757cc94cd7c916089ff5.jpeg
+        profile_background_image_url_https: >-
+          https://pbs.twimg.com/profile_background_images/378800000104033685/67552712633f757cc94cd7c916089ff5.jpeg
+        profile_background_tile: false
+        profile_banner_url: 'https://pbs.twimg.com/profile_banners/233783568/1488991597'
+        profile_image_url: >-
+          http://pbs.twimg.com/profile_images/839513060226256897/2Bi-rAww_normal.jpg
+        profile_image_url_https: >-
+          https://pbs.twimg.com/profile_images/839513060226256897/2Bi-rAww_normal.jpg
+        profile_link_color: 080770
+        profile_sidebar_border_color: FFFFFF
+        profile_sidebar_fill_color: EDE3E1
+        profile_text_color: '333333'
+        profile_use_background_image: false
+        protected: false
+        screen_name: OfficialCBC
+        statuses_count: 11123
+        time_zone: Eastern Time (US & Canada)
+        translator_type: none
+        url: 'https://t.co/FRZSxTsjrl'
+        utc_offset: -14400
+        verified: true
+    source: >-
+      <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    text: >-
+      RT @OfficialCBC: Join @RepRichmond as he kicks off our #StayWoke Twitter
+      Town hall https://t.co/zj2sNaDBiK
+    truncated: false
+    user:
+      contributors_enabled: false
+      created_at: 'Tue Mar 21 20:50:14 +0000 2006'
+      default_profile: false
+      default_profile_image: false
+      description: ''
+      entities:
+        description:
+          urls: []
+      favourites_count: 16960
+      follow_request_sent: null
+      followers_count: 4039998
+      following: null
+      friends_count: 2703
+      geo_enabled: true
+      has_extended_profile: true
+      id: 12
+      id_str: '12'
+      is_translation_enabled: false
+      is_translator: false
+      lang: en
+      listed_count: 27194
+      location: 'California, USA'
+      name: jack
+      notifications: null
+      profile_background_color: EBEBEB
+      profile_background_image_url: 'http://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_tile: false
+      profile_banner_url: 'https://pbs.twimg.com/profile_banners/12/1483046077'
+      profile_image_url: >-
+        http://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_image_url_https: >-
+        https://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_link_color: '990000'
+      profile_sidebar_border_color: DFDFDF
+      profile_sidebar_fill_color: F3F3F3
+      profile_text_color: '333333'
+      profile_use_background_image: true
+      protected: false
+      screen_name: jack
+      statuses_count: 21832
+      time_zone: Pacific Time (US & Canada)
+      translator_type: regular
+      url: null
+      utc_offset: -25200
+      verified: true
+  - _id: '859381836115570688'
+    contributors: null
+    coordinates: null
+    created_at: 'Tue May 02 12:19:30 +0000 2017'
+    entities:
+      hashtags:
+        - indices:
+            - 50
+            - 65
+          text: WhatsHappening
+      symbols: []
+      urls: []
+      user_mentions:
+        - id: 24312293
+          id_str: '24312293'
+          indices:
+            - 3
+            - 19
+          name: Phoebe Robinson
+          screen_name: dopequeenpheebs
+        - id: 783214
+          id_str: '783214'
+          indices:
+            - 85
+            - 93
+          name: Twitter
+          screen_name: Twitter
+    favorite_count: 0
+    favorited: false
+    geo: null
+    id: 859381836115570700
+    id_str: '859381836115570688'
+    in_reply_to_screen_name: null
+    in_reply_to_status_id: null
+    in_reply_to_status_id_str: null
+    in_reply_to_user_id: null
+    in_reply_to_user_id_str: null
+    is_quote_status: true
+    lang: en
+    place: null
+    quoted_status_id: 859184111675744300
+    quoted_status_id_str: '859184111675744256'
+    retweet_count: 79
+    retweeted: false
+    retweeted_status:
+      contributors: null
+      coordinates: null
+      created_at: 'Mon May 01 23:17:45 +0000 2017'
+      entities:
+        hashtags:
+          - indices:
+              - 29
+              - 44
+            text: WhatsHappening
+        symbols: []
+        urls:
+          - display_url: twitter.com/i/web/status/8…
+            expanded_url: 'https://twitter.com/i/web/status/859185101187534850'
+            indices:
+              - 121
+              - 144
+            url: 'https://t.co/V3Qw8ZTeuB'
+        user_mentions:
+          - id: 783214
+            id_str: '783214'
+            indices:
+              - 64
+              - 72
+            name: Twitter
+            screen_name: Twitter
+      favorite_count: 477
+      favorited: false
+      geo: null
+      id: 859185101187534800
+      id_str: '859185101187534850'
+      in_reply_to_screen_name: null
+      in_reply_to_status_id: null
+      in_reply_to_status_id_str: null
+      in_reply_to_user_id: null
+      in_reply_to_user_id_str: null
+      is_quote_status: true
+      lang: en
+      place: null
+      possibly_sensitive: false
+      quoted_status:
+        contributors: null
+        coordinates: null
+        created_at: 'Mon May 01 23:13:49 +0000 2017'
+        entities:
+          hashtags:
+            - indices:
+                - 40
+                - 55
+              text: whatshappening
+            - indices:
+                - 68
+                - 78
+              text: newfronts
+          media:
+            - display_url: pic.twitter.com/5nHcB9lz1Y
+              expanded_url: 'https://twitter.com/JAdamsCT/status/859184111675744256/photo/1'
+              id: 859184103857455100
+              id_str: '859184103857455104'
+              indices:
+                - 79
+                - 102
+              media_url: 'http://pbs.twimg.com/media/C-xvY-sWAAAFPq0.jpg'
+              media_url_https: 'https://pbs.twimg.com/media/C-xvY-sWAAAFPq0.jpg'
+              sizes:
+                large:
+                  h: 645
+                  resize: fit
+                  w: 2048
+                medium:
+                  h: 378
+                  resize: fit
+                  w: 1200
+                small:
+                  h: 214
+                  resize: fit
+                  w: 680
+                thumb:
+                  h: 150
+                  resize: crop
+                  w: 150
+              type: photo
+              url: 'https://t.co/5nHcB9lz1Y'
+          symbols: []
+          urls: []
+          user_mentions:
+            - id: 24312293
+              id_str: '24312293'
+              indices:
+                - 1
+                - 17
+              name: Phoebe Robinson
+              screen_name: dopequeenpheebs
+            - id: 783214
+              id_str: '783214'
+              indices:
+                - 59
+                - 67
+              name: Twitter
+              screen_name: Twitter
+        extended_entities:
+          media:
+            - display_url: pic.twitter.com/5nHcB9lz1Y
+              expanded_url: 'https://twitter.com/JAdamsCT/status/859184111675744256/photo/1'
+              id: 859184103857455100
+              id_str: '859184103857455104'
+              indices:
+                - 79
+                - 102
+              media_url: 'http://pbs.twimg.com/media/C-xvY-sWAAAFPq0.jpg'
+              media_url_https: 'https://pbs.twimg.com/media/C-xvY-sWAAAFPq0.jpg'
+              sizes:
+                large:
+                  h: 645
+                  resize: fit
+                  w: 2048
+                medium:
+                  h: 378
+                  resize: fit
+                  w: 1200
+                small:
+                  h: 214
+                  resize: fit
+                  w: 680
+                thumb:
+                  h: 150
+                  resize: crop
+                  w: 150
+              type: photo
+              url: 'https://t.co/5nHcB9lz1Y'
+        favorite_count: 20
+        favorited: false
+        geo: null
+        id: 859184111675744300
+        id_str: '859184111675744256'
+        in_reply_to_screen_name: null
+        in_reply_to_status_id: null
+        in_reply_to_status_id_str: null
+        in_reply_to_user_id: null
+        in_reply_to_user_id_str: null
+        is_quote_status: false
+        lang: en
+        place:
+          attributes: {}
+          bounding_box:
+            coordinates:
+              - - - -74.026675
+                  - 40.683935
+                - - -73.910408
+                  - 40.683935
+                - - -73.910408
+                  - 40.877483
+                - - -74.026675
+                  - 40.877483
+            type: Polygon
+          contained_within: []
+          country: Etats-Unis
+          country_code: US
+          full_name: 'Manhattan, NY'
+          id: 01a9a39529b27f36
+          name: Manhattan
+          place_type: city
+          url: 'https://api.twitter.com/1.1/geo/id/01a9a39529b27f36.json'
+        possibly_sensitive: false
+        retweet_count: 7
+        retweeted: false
+        source: >-
+          <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter
+          for iPhone</a>
+        text: >-
+          .@dopequeenpheebs launches her new show #whatshappening on @Twitter
+          #newfronts https://t.co/5nHcB9lz1Y
+        truncated: false
+        user:
+          contributors_enabled: false
+          created_at: 'Thu May 13 18:57:13 +0000 2010'
+          default_profile: false
+          default_profile_image: false
+          description: >-
+            Chief Digital Officer -- Maxus Americas. Passionate digital
+            marketing exec, proud father, happy husband, and awkward triathlete.
+          entities:
+            description:
+              urls: []
+          favourites_count: 1402
+          follow_request_sent: null
+          followers_count: 1220
+          following: null
+          friends_count: 795
+          geo_enabled: true
+          has_extended_profile: false
+          id: 143537011
+          id_str: '143537011'
+          is_translation_enabled: false
+          is_translator: false
+          lang: en
+          listed_count: 82
+          location: CT & NYC
+          name: Jonathan Adams
+          notifications: null
+          profile_background_color: '000000'
+          profile_background_image_url: 'http://abs.twimg.com/images/themes/theme15/bg.png'
+          profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme15/bg.png'
+          profile_background_tile: false
+          profile_banner_url: 'https://pbs.twimg.com/profile_banners/143537011/1363285842'
+          profile_image_url: >-
+            http://pbs.twimg.com/profile_images/483335660431245312/mRy9Y9A7_normal.jpeg
+          profile_image_url_https: >-
+            https://pbs.twimg.com/profile_images/483335660431245312/mRy9Y9A7_normal.jpeg
+          profile_link_color: FA743E
+          profile_sidebar_border_color: '000000'
+          profile_sidebar_fill_color: '000000'
+          profile_text_color: '000000'
+          profile_use_background_image: false
+          protected: false
+          screen_name: JAdamsCT
+          statuses_count: 2441
+          time_zone: Eastern Time (US & Canada)
+          translator_type: none
+          url: null
+          utc_offset: -14400
+          verified: false
+      quoted_status_id: 859184111675744300
+      quoted_status_id_str: '859184111675744256'
+      retweet_count: 79
+      retweeted: false
+      source: >-
+        <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+        iPhone</a>
+      text: >-
+        Soooo pumped for my new show #WhatsHappening coming dis fall on
+        @twitter! Will be cute &amp; fun AF. Thx for the opport…
+        https://t.co/V3Qw8ZTeuB
+      truncated: true
+      user:
+        contributors_enabled: false
+        created_at: 'Sat Mar 14 02:36:19 +0000 2009'
+        default_profile: false
+        default_profile_image: false
+        description: >-
+          Stand-Up Comic | @2DopeQueens podcast | Sooo Many White Guys podcast |
+          My book #YouCantTouchMyHair is avail in paperback, e-book & audiobook
+        entities:
+          description:
+            urls: []
+          url:
+            urls:
+              - display_url: phoeberobinson.com
+                expanded_url: 'http://www.phoeberobinson.com'
+                indices:
+                  - 0
+                  - 23
+                url: 'https://t.co/aAFVNi9VeN'
+        favourites_count: 30737
+        follow_request_sent: null
+        followers_count: 45052
+        following: null
+        friends_count: 2337
+        geo_enabled: true
+        has_extended_profile: false
+        id: 24312293
+        id_str: '24312293'
+        is_translation_enabled: false
+        is_translator: false
+        lang: en
+        listed_count: 473
+        location: 'Brooklyn, NY'
+        name: Phoebe Robinson
+        notifications: null
+        profile_background_color: '000000'
+        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme12/bg.gif'
+        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme12/bg.gif'
+        profile_background_tile: false
+        profile_banner_url: 'https://pbs.twimg.com/profile_banners/24312293/1491339686'
+        profile_image_url: >-
+          http://pbs.twimg.com/profile_images/819216587366535169/uGnj3SWD_normal.jpg
+        profile_image_url_https: >-
+          https://pbs.twimg.com/profile_images/819216587366535169/uGnj3SWD_normal.jpg
+        profile_link_color: FAB81E
+        profile_sidebar_border_color: '000000'
+        profile_sidebar_fill_color: '000000'
+        profile_text_color: '000000'
+        profile_use_background_image: false
+        protected: false
+        screen_name: dopequeenpheebs
+        statuses_count: 10045
+        time_zone: Eastern Time (US & Canada)
+        translator_type: none
+        url: 'https://t.co/aAFVNi9VeN'
+        utc_offset: -14400
+        verified: true
+    source: >-
+      <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    text: >-
+      RT @dopequeenpheebs: Soooo pumped for my new show #WhatsHappening coming
+      dis fall on @twitter! Will be cute &amp; fun AF. Thx for the opportuni…
+    truncated: false
+    user:
+      contributors_enabled: false
+      created_at: 'Tue Mar 21 20:50:14 +0000 2006'
+      default_profile: false
+      default_profile_image: false
+      description: ''
+      entities:
+        description:
+          urls: []
+      favourites_count: 16960
+      follow_request_sent: null
+      followers_count: 4039998
+      following: null
+      friends_count: 2703
+      geo_enabled: true
+      has_extended_profile: true
+      id: 12
+      id_str: '12'
+      is_translation_enabled: false
+      is_translator: false
+      lang: en
+      listed_count: 27194
+      location: 'California, USA'
+      name: jack
+      notifications: null
+      profile_background_color: EBEBEB
+      profile_background_image_url: 'http://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_tile: false
+      profile_banner_url: 'https://pbs.twimg.com/profile_banners/12/1483046077'
+      profile_image_url: >-
+        http://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_image_url_https: >-
+        https://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_link_color: '990000'
+      profile_sidebar_border_color: DFDFDF
+      profile_sidebar_fill_color: F3F3F3
+      profile_text_color: '333333'
+      profile_use_background_image: true
+      protected: false
+      screen_name: jack
+      statuses_count: 21832
+      time_zone: Pacific Time (US & Canada)
+      translator_type: regular
+      url: null
+      utc_offset: -25200
+      verified: true
+  - _id: '859195489027280896'
+    contributors: null
+    coordinates: null
+    created_at: 'Mon May 01 23:59:02 +0000 2017'
+    entities:
+      hashtags: []
+      media:
+        - display_url: pic.twitter.com/2IABTLTwHL
+          expanded_url: >-
+            https://twitter.com/Crystal1Johnson/status/859161034959048705/photo/1
+          id: 859160917656969200
+          id_str: '859160917656969216'
+          indices:
+            - 90
+            - 113
+          media_url: 'http://pbs.twimg.com/media/C-xaTXXXoAAPeyM.jpg'
+          media_url_https: 'https://pbs.twimg.com/media/C-xaTXXXoAAPeyM.jpg'
+          sizes:
+            large:
+              h: 733
+              resize: fit
+              w: 750
+            medium:
+              h: 733
+              resize: fit
+              w: 750
+            small:
+              h: 665
+              resize: fit
+              w: 680
+            thumb:
+              h: 150
+              resize: crop
+              w: 150
+          source_status_id: 859161034959048700
+          source_status_id_str: '859161034959048705'
+          source_user_id: 4437233895
+          source_user_id_str: '4437233895'
+          type: photo
+          url: 'https://t.co/2IABTLTwHL'
+      symbols: []
+      urls: []
+      user_mentions:
+        - id: 4437233895
+          id_str: '4437233895'
+          indices:
+            - 3
+            - 19
+          name: Crystal Johnson
+          screen_name: Crystal1Johnson
+    extended_entities:
+      media:
+        - display_url: pic.twitter.com/2IABTLTwHL
+          expanded_url: >-
+            https://twitter.com/Crystal1Johnson/status/859161034959048705/photo/1
+          id: 859160917656969200
+          id_str: '859160917656969216'
+          indices:
+            - 90
+            - 113
+          media_url: 'http://pbs.twimg.com/media/C-xaTXXXoAAPeyM.jpg'
+          media_url_https: 'https://pbs.twimg.com/media/C-xaTXXXoAAPeyM.jpg'
+          sizes:
+            large:
+              h: 733
+              resize: fit
+              w: 750
+            medium:
+              h: 733
+              resize: fit
+              w: 750
+            small:
+              h: 665
+              resize: fit
+              w: 680
+            thumb:
+              h: 150
+              resize: crop
+              w: 150
+          source_status_id: 859161034959048700
+          source_status_id_str: '859161034959048705'
+          source_user_id: 4437233895
+          source_user_id_str: '4437233895'
+          type: photo
+          url: 'https://t.co/2IABTLTwHL'
+    favorite_count: 0
+    favorited: false
+    geo: null
+    id: 859195489027280900
+    id_str: '859195489027280896'
+    in_reply_to_screen_name: null
+    in_reply_to_status_id: null
+    in_reply_to_status_id_str: null
+    in_reply_to_user_id: null
+    in_reply_to_user_id_str: null
+    is_quote_status: false
+    lang: en
+    place: null
+    possibly_sensitive: false
+    retweet_count: 2741
+    retweeted: false
+    retweeted_status:
+      contributors: null
+      coordinates: null
+      created_at: 'Mon May 01 21:42:07 +0000 2017'
+      entities:
+        hashtags: []
+        media:
+          - display_url: pic.twitter.com/2IABTLTwHL
+            expanded_url: >-
+              https://twitter.com/Crystal1Johnson/status/859161034959048705/photo/1
+            id: 859160917656969200
+            id_str: '859160917656969216'
+            indices:
+              - 69
+              - 92
+            media_url: 'http://pbs.twimg.com/media/C-xaTXXXoAAPeyM.jpg'
+            media_url_https: 'https://pbs.twimg.com/media/C-xaTXXXoAAPeyM.jpg'
+            sizes:
+              large:
+                h: 733
+                resize: fit
+                w: 750
+              medium:
+                h: 733
+                resize: fit
+                w: 750
+              small:
+                h: 665
+                resize: fit
+                w: 680
+              thumb:
+                h: 150
+                resize: crop
+                w: 150
+            type: photo
+            url: 'https://t.co/2IABTLTwHL'
+        symbols: []
+        urls: []
+        user_mentions: []
+      extended_entities:
+        media:
+          - display_url: pic.twitter.com/2IABTLTwHL
+            expanded_url: >-
+              https://twitter.com/Crystal1Johnson/status/859161034959048705/photo/1
+            id: 859160917656969200
+            id_str: '859160917656969216'
+            indices:
+              - 69
+              - 92
+            media_url: 'http://pbs.twimg.com/media/C-xaTXXXoAAPeyM.jpg'
+            media_url_https: 'https://pbs.twimg.com/media/C-xaTXXXoAAPeyM.jpg'
+            sizes:
+              large:
+                h: 733
+                resize: fit
+                w: 750
+              medium:
+                h: 733
+                resize: fit
+                w: 750
+              small:
+                h: 665
+                resize: fit
+                w: 680
+              thumb:
+                h: 150
+                resize: crop
+                w: 150
+            type: photo
+            url: 'https://t.co/2IABTLTwHL'
+      favorite_count: 6395
+      favorited: false
+      geo: null
+      id: 859161034959048700
+      id_str: '859161034959048705'
+      in_reply_to_screen_name: null
+      in_reply_to_status_id: null
+      in_reply_to_status_id_str: null
+      in_reply_to_user_id: null
+      in_reply_to_user_id_str: null
+      is_quote_status: false
+      lang: en
+      place: null
+      possibly_sensitive: false
+      retweet_count: 2741
+      retweeted: false
+      source: '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>'
+      text: "Colin Kaepernick handing out suits in front of a NYC Parole office\uD83D\uDC4D\uD83C\uDFFD https://t.co/2IABTLTwHL"
+      truncated: false
+      user:
+        contributors_enabled: false
+        created_at: 'Thu Dec 10 12:08:01 +0000 2015'
+        default_profile: true
+        default_profile_image: false
+        description: ''
+        entities:
+          description:
+            urls: []
+        favourites_count: 409
+        follow_request_sent: null
+        followers_count: 40163
+        following: null
+        friends_count: 29347
+        geo_enabled: false
+        has_extended_profile: false
+        id: 4437233895
+        id_str: '4437233895'
+        is_translation_enabled: false
+        is_translator: false
+        lang: en
+        listed_count: 734
+        location: 'Richmond, VA'
+        name: Crystal Johnson
+        notifications: null
+        profile_background_color: F5F8FA
+        profile_background_image_url: null
+        profile_background_image_url_https: null
+        profile_background_tile: false
+        profile_banner_url: 'https://pbs.twimg.com/profile_banners/4437233895/1455974257'
+        profile_image_url: >-
+          http://pbs.twimg.com/profile_images/701032700526911488/rXwMf0LO_normal.jpg
+        profile_image_url_https: >-
+          https://pbs.twimg.com/profile_images/701032700526911488/rXwMf0LO_normal.jpg
+        profile_link_color: 1DA1F2
+        profile_sidebar_border_color: C0DEED
+        profile_sidebar_fill_color: DDEEF6
+        profile_text_color: '333333'
+        profile_use_background_image: true
+        protected: false
+        screen_name: Crystal1Johnson
+        statuses_count: 5597
+        time_zone: Eastern Time (US & Canada)
+        translator_type: none
+        url: null
+        utc_offset: -14400
+        verified: false
+    source: >-
+      <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    text: "RT @Crystal1Johnson: Colin Kaepernick handing out suits in front of a NYC Parole office\uD83D\uDC4D\uD83C\uDFFD https://t.co/2IABTLTwHL"
+    truncated: false
+    user:
+      contributors_enabled: false
+      created_at: 'Tue Mar 21 20:50:14 +0000 2006'
+      default_profile: false
+      default_profile_image: false
+      description: ''
+      entities:
+        description:
+          urls: []
+      favourites_count: 16960
+      follow_request_sent: null
+      followers_count: 4039998
+      following: null
+      friends_count: 2703
+      geo_enabled: true
+      has_extended_profile: true
+      id: 12
+      id_str: '12'
+      is_translation_enabled: false
+      is_translator: false
+      lang: en
+      listed_count: 27194
+      location: 'California, USA'
+      name: jack
+      notifications: null
+      profile_background_color: EBEBEB
+      profile_background_image_url: 'http://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_tile: false
+      profile_banner_url: 'https://pbs.twimg.com/profile_banners/12/1483046077'
+      profile_image_url: >-
+        http://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_image_url_https: >-
+        https://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_link_color: '990000'
+      profile_sidebar_border_color: DFDFDF
+      profile_sidebar_fill_color: F3F3F3
+      profile_text_color: '333333'
+      profile_use_background_image: true
+      protected: false
+      screen_name: jack
+      statuses_count: 21832
+      time_zone: Pacific Time (US & Canada)
+      translator_type: regular
+      url: null
+      utc_offset: -25200
+      verified: true
+  - _id: '859171507091714049'
+    contributors: null
+    coordinates: null
+    created_at: 'Mon May 01 22:23:44 +0000 2017'
+    entities:
+      hashtags: []
+      symbols: []
+      urls: []
+      user_mentions:
+        - id: 30581721
+          id_str: '30581721'
+          indices:
+            - 0
+            - 12
+          name: "Kerry Flynn \uD83D\uDC36"
+          screen_name: kerrymflynn
+        - id: 783214
+          id_str: '783214'
+          indices:
+            - 13
+            - 21
+          name: Twitter
+          screen_name: Twitter
+    favorite_count: 18
+    favorited: false
+    geo: null
+    id: 859171507091714000
+    id_str: '859171507091714049'
+    in_reply_to_screen_name: kerrymflynn
+    in_reply_to_status_id: 859171439714480100
+    in_reply_to_status_id_str: '859171439714480128'
+    in_reply_to_user_id: 30581721
+    in_reply_to_user_id_str: '30581721'
+    is_quote_status: false
+    lang: en
+    place: null
+    retweet_count: 1
+    retweeted: false
+    source: >-
+      <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    text: '@kerrymflynn @Twitter I know right'
+    truncated: false
+    user:
+      contributors_enabled: false
+      created_at: 'Tue Mar 21 20:50:14 +0000 2006'
+      default_profile: false
+      default_profile_image: false
+      description: ''
+      entities:
+        description:
+          urls: []
+      favourites_count: 16960
+      follow_request_sent: null
+      followers_count: 4039998
+      following: null
+      friends_count: 2703
+      geo_enabled: true
+      has_extended_profile: true
+      id: 12
+      id_str: '12'
+      is_translation_enabled: false
+      is_translator: false
+      lang: en
+      listed_count: 27194
+      location: 'California, USA'
+      name: jack
+      notifications: null
+      profile_background_color: EBEBEB
+      profile_background_image_url: 'http://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_tile: false
+      profile_banner_url: 'https://pbs.twimg.com/profile_banners/12/1483046077'
+      profile_image_url: >-
+        http://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_image_url_https: >-
+        https://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_link_color: '990000'
+      profile_sidebar_border_color: DFDFDF
+      profile_sidebar_fill_color: F3F3F3
+      profile_text_color: '333333'
+      profile_use_background_image: true
+      protected: false
+      screen_name: jack
+      statuses_count: 21832
+      time_zone: Pacific Time (US & Canada)
+      translator_type: regular
+      url: null
+      utc_offset: -25200
+      verified: true
+  - _id: '859159779033456644'
+    contributors: null
+    coordinates: null
+    created_at: 'Mon May 01 21:37:08 +0000 2017'
+    entities:
+      hashtags: []
+      symbols: []
+      urls: []
+      user_mentions:
+        - id: 1114876050
+          id_str: '1114876050'
+          indices:
+            - 0
+            - 12
+          name: Jeremy Shure
+          screen_name: JeremyShure
+        - id: 13
+          id_str: '13'
+          indices:
+            - 13
+            - 17
+          name: Biz Stone
+          screen_name: biz
+        - id: 731716208316284900
+          id_str: '731716208316284931'
+          indices:
+            - 31
+            - 43
+          name: Geno the Barber
+          screen_name: geno_barber
+    favorite_count: 7
+    favorited: false
+    geo: null
+    id: 859159779033456600
+    id_str: '859159779033456644'
+    in_reply_to_screen_name: JeremyShure
+    in_reply_to_status_id: 859159567560790000
+    in_reply_to_status_id_str: '859159567560790017'
+    in_reply_to_user_id: 1114876050
+    in_reply_to_user_id_str: '1114876050'
+    is_quote_status: false
+    lang: en
+    place: null
+    retweet_count: 1
+    retweeted: false
+    source: >-
+      <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    text: '@JeremyShure @biz I''m visiting @geno_barber tonight'
+    truncated: false
+    user:
+      contributors_enabled: false
+      created_at: 'Tue Mar 21 20:50:14 +0000 2006'
+      default_profile: false
+      default_profile_image: false
+      description: ''
+      entities:
+        description:
+          urls: []
+      favourites_count: 16960
+      follow_request_sent: null
+      followers_count: 4039998
+      following: null
+      friends_count: 2703
+      geo_enabled: true
+      has_extended_profile: true
+      id: 12
+      id_str: '12'
+      is_translation_enabled: false
+      is_translator: false
+      lang: en
+      listed_count: 27194
+      location: 'California, USA'
+      name: jack
+      notifications: null
+      profile_background_color: EBEBEB
+      profile_background_image_url: 'http://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_tile: false
+      profile_banner_url: 'https://pbs.twimg.com/profile_banners/12/1483046077'
+      profile_image_url: >-
+        http://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_image_url_https: >-
+        https://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_link_color: '990000'
+      profile_sidebar_border_color: DFDFDF
+      profile_sidebar_fill_color: F3F3F3
+      profile_text_color: '333333'
+      profile_use_background_image: true
+      protected: false
+      screen_name: jack
+      statuses_count: 21832
+      time_zone: Pacific Time (US & Canada)
+      translator_type: regular
+      url: null
+      utc_offset: -25200
+      verified: true
+  - _id: '859146327732695040'
+    contributors: null
+    coordinates: null
+    created_at: 'Mon May 01 20:43:41 +0000 2017'
+    entities:
+      hashtags: []
+      symbols: []
+      urls: []
+      user_mentions:
+        - id: 16581604
+          id_str: '16581604'
+          indices:
+            - 3
+            - 17
+          name: Mike Bloomberg
+          screen_name: MikeBloomberg
+        - id: 12
+          id_str: '12'
+          indices:
+            - 42
+            - 47
+          name: jack
+          screen_name: jack
+        - id: 104237736
+          id_str: '104237736'
+          indices:
+            - 66
+            - 76
+          name: Bloomberg LP
+          screen_name: Bloomberg
+        - id: 783214
+          id_str: '783214'
+          indices:
+            - 115
+            - 123
+          name: Twitter
+          screen_name: Twitter
+    favorite_count: 0
+    favorited: false
+    geo: null
+    id: 859146327732695000
+    id_str: '859146327732695040'
+    in_reply_to_screen_name: null
+    in_reply_to_status_id: null
+    in_reply_to_status_id_str: null
+    in_reply_to_user_id: null
+    in_reply_to_user_id_str: null
+    is_quote_status: false
+    lang: en
+    place: null
+    retweet_count: 500
+    retweeted: false
+    retweeted_status:
+      contributors: null
+      coordinates: null
+      created_at: 'Mon May 01 20:43:22 +0000 2017'
+      entities:
+        hashtags: []
+        symbols: []
+        urls:
+          - display_url: twitter.com/i/web/status/8…
+            expanded_url: 'https://twitter.com/i/web/status/859146250033266689'
+            indices:
+              - 106
+              - 129
+            url: 'https://t.co/TCu6d4GzoI'
+        user_mentions:
+          - id: 12
+            id_str: '12'
+            indices:
+              - 23
+              - 28
+            name: jack
+            screen_name: jack
+          - id: 104237736
+            id_str: '104237736'
+            indices:
+              - 47
+              - 57
+            name: Bloomberg LP
+            screen_name: Bloomberg
+          - id: 783214
+            id_str: '783214'
+            indices:
+              - 96
+              - 104
+            name: Twitter
+            screen_name: Twitter
+      favorite_count: 1167
+      favorited: false
+      geo: null
+      id: 859146250033266700
+      id_str: '859146250033266689'
+      in_reply_to_screen_name: null
+      in_reply_to_status_id: null
+      in_reply_to_status_id_str: null
+      in_reply_to_user_id: null
+      in_reply_to_user_id_str: null
+      is_quote_status: false
+      lang: en
+      place: null
+      possibly_sensitive: false
+      retweet_count: 500
+      retweeted: false
+      source: '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>'
+      text: >-
+        Enjoyed sitting down w/@jack today to announce @Bloomberg's new global
+        24/7 live news network w/@Twitter… https://t.co/TCu6d4GzoI
+      truncated: true
+      user:
+        contributors_enabled: false
+        created_at: 'Fri Oct 03 18:31:59 +0000 2008'
+        default_profile: false
+        default_profile_image: false
+        description: 'Entrepreneur, philanthropist, and three-term mayor of New York City'
+        entities:
+          description:
+            urls: []
+          url:
+            urls:
+              - display_url: mikebloomberg.com
+                expanded_url: 'http://www.mikebloomberg.com/'
+                indices:
+                  - 0
+                  - 22
+                url: 'http://t.co/2qsq3Fk2kb'
+        favourites_count: 246
+        follow_request_sent: null
+        followers_count: 1871660
+        following: null
+        friends_count: 419
+        geo_enabled: true
+        has_extended_profile: false
+        id: 16581604
+        id_str: '16581604'
+        is_translation_enabled: false
+        is_translator: false
+        lang: en
+        listed_count: 11387
+        location: New York City
+        name: Mike Bloomberg
+        notifications: null
+        profile_background_color: '000000'
+        profile_background_image_url: >-
+          http://pbs.twimg.com/profile_background_images/616631204066889728/EY6EJPCC.jpg
+        profile_background_image_url_https: >-
+          https://pbs.twimg.com/profile_background_images/616631204066889728/EY6EJPCC.jpg
+        profile_background_tile: true
+        profile_banner_url: 'https://pbs.twimg.com/profile_banners/16581604/1492555003'
+        profile_image_url: >-
+          http://pbs.twimg.com/profile_images/615510114447953920/_1c4TTMM_normal.jpg
+        profile_image_url_https: >-
+          https://pbs.twimg.com/profile_images/615510114447953920/_1c4TTMM_normal.jpg
+        profile_link_color: 005CD1
+        profile_sidebar_border_color: FFFFFF
+        profile_sidebar_fill_color: BED7EC
+        profile_text_color: '333333'
+        profile_use_background_image: true
+        protected: false
+        screen_name: MikeBloomberg
+        statuses_count: 9624
+        time_zone: Eastern Time (US & Canada)
+        translator_type: none
+        url: 'http://t.co/2qsq3Fk2kb'
+        utc_offset: -14400
+        verified: true
+    source: >-
+      <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    text: >-
+      RT @MikeBloomberg: Enjoyed sitting down w/@jack today to announce
+      @Bloomberg's new global 24/7 live news network w/@Twitter https://t.co/zE…
+    truncated: false
+    user:
+      contributors_enabled: false
+      created_at: 'Tue Mar 21 20:50:14 +0000 2006'
+      default_profile: false
+      default_profile_image: false
+      description: ''
+      entities:
+        description:
+          urls: []
+      favourites_count: 16960
+      follow_request_sent: null
+      followers_count: 4039998
+      following: null
+      friends_count: 2703
+      geo_enabled: true
+      has_extended_profile: true
+      id: 12
+      id_str: '12'
+      is_translation_enabled: false
+      is_translator: false
+      lang: en
+      listed_count: 27194
+      location: 'California, USA'
+      name: jack
+      notifications: null
+      profile_background_color: EBEBEB
+      profile_background_image_url: 'http://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_tile: false
+      profile_banner_url: 'https://pbs.twimg.com/profile_banners/12/1483046077'
+      profile_image_url: >-
+        http://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_image_url_https: >-
+        https://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_link_color: '990000'
+      profile_sidebar_border_color: DFDFDF
+      profile_sidebar_fill_color: F3F3F3
+      profile_text_color: '333333'
+      profile_use_background_image: true
+      protected: false
+      screen_name: jack
+      statuses_count: 21832
+      time_zone: Pacific Time (US & Canada)
+      translator_type: regular
+      url: null
+      utc_offset: -25200
+      verified: true
+  - _id: '859140394193485828'
+    contributors: null
+    coordinates: null
+    created_at: 'Mon May 01 20:20:06 +0000 2017'
+    entities:
+      hashtags: []
+      symbols: []
+      urls: []
+      user_mentions:
+        - id: 19475858
+          id_str: '19475858'
+          indices:
+            - 3
+            - 10
+          name: Lou Paskalis
+          screen_name: LouPas
+        - id: 104237736
+          id_str: '104237736'
+          indices:
+            - 58
+            - 68
+          name: Bloomberg LP
+          screen_name: Bloomberg
+        - id: 783214
+          id_str: '783214'
+          indices:
+            - 73
+            - 81
+          name: Twitter
+          screen_name: Twitter
+        - id: 74130577
+          id_str: '74130577'
+          indices:
+            - 94
+            - 107
+          name: Emily Chang
+          screen_name: emilychangtv
+        - id: 16581604
+          id_str: '16581604'
+          indices:
+            - 111
+            - 125
+          name: Mike Bloomberg
+          screen_name: MikeBloomberg
+        - id: 12
+          id_str: '12'
+          indices:
+            - 130
+            - 135
+          name: jack
+          screen_name: jack
+    favorite_count: 0
+    favorited: false
+    geo: null
+    id: 859140394193485800
+    id_str: '859140394193485828'
+    in_reply_to_screen_name: null
+    in_reply_to_status_id: null
+    in_reply_to_status_id_str: null
+    in_reply_to_user_id: null
+    in_reply_to_user_id_str: null
+    is_quote_status: false
+    lang: en
+    place: null
+    retweet_count: 96
+    retweeted: false
+    retweeted_status:
+      contributors: null
+      coordinates: null
+      created_at: 'Mon May 01 19:46:55 +0000 2017'
+      entities:
+        hashtags: []
+        symbols: []
+        urls:
+          - display_url: twitter.com/i/web/status/8…
+            expanded_url: 'https://twitter.com/i/web/status/859132040578387968'
+            indices:
+              - 117
+              - 140
+            url: 'https://t.co/YR18gGsfT4'
+        user_mentions:
+          - id: 104237736
+            id_str: '104237736'
+            indices:
+              - 46
+              - 56
+            name: Bloomberg LP
+            screen_name: Bloomberg
+          - id: 783214
+            id_str: '783214'
+            indices:
+              - 61
+              - 69
+            name: Twitter
+            screen_name: Twitter
+          - id: 74130577
+            id_str: '74130577'
+            indices:
+              - 82
+              - 95
+            name: Emily Chang
+            screen_name: emilychangtv
+          - id: 16581604
+            id_str: '16581604'
+            indices:
+              - 99
+              - 113
+            name: Mike Bloomberg
+            screen_name: MikeBloomberg
+      favorite_count: 309
+      favorited: false
+      geo: null
+      id: 859132040578388000
+      id_str: '859132040578387968'
+      in_reply_to_screen_name: null
+      in_reply_to_status_id: null
+      in_reply_to_status_id_str: null
+      in_reply_to_user_id: null
+      in_reply_to_user_id_str: null
+      is_quote_status: false
+      lang: en
+      place: null
+      possibly_sensitive: false
+      retweet_count: 96
+      retweeted: false
+      source: >-
+        <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+        iPhone</a>
+      text: >-
+        Brilliant real-time, news partnership between @Bloomberg and @twitter
+        unveiled to @emilychangtv by @MikeBloomberg a… https://t.co/YR18gGsfT4
+      truncated: true
+      user:
+        contributors_enabled: false
+        created_at: 'Sun Jan 25 03:12:54 +0000 2009'
+        default_profile: false
+        default_profile_image: false
+        description: >-
+          Marketer disrupting the advertising world. @F1 fanatic who knows
+          @f1_Vettel and @Alo_official are the best drivers on the track. Work
+          at BAC but views my own.
+        entities:
+          description:
+            urls: []
+        favourites_count: 5654
+        follow_request_sent: null
+        followers_count: 4018
+        following: null
+        friends_count: 4661
+        geo_enabled: true
+        has_extended_profile: false
+        id: 19475858
+        id_str: '19475858'
+        is_translation_enabled: false
+        is_translator: false
+        lang: en
+        listed_count: 189
+        location: Manhattan
+        name: Lou Paskalis
+        notifications: null
+        profile_background_color: '000000'
+        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png'
+        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png'
+        profile_background_tile: false
+        profile_banner_url: 'https://pbs.twimg.com/profile_banners/19475858/1484877256'
+        profile_image_url: >-
+          http://pbs.twimg.com/profile_images/835101206838149121/BvTZxLaH_normal.jpg
+        profile_image_url_https: >-
+          https://pbs.twimg.com/profile_images/835101206838149121/BvTZxLaH_normal.jpg
+        profile_link_color: 1170C2
+        profile_sidebar_border_color: '000000'
+        profile_sidebar_fill_color: '000000'
+        profile_text_color: '000000'
+        profile_use_background_image: false
+        protected: false
+        screen_name: LouPas
+        statuses_count: 5022
+        time_zone: Pacific Time (US & Canada)
+        translator_type: none
+        url: null
+        utc_offset: -25200
+        verified: true
+    source: >-
+      <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    text: >-
+      RT @LouPas: Brilliant real-time, news partnership between @Bloomberg and
+      @twitter unveiled to @emilychangtv by @MikeBloomberg and @Jack #Ne…
+    truncated: false
+    user:
+      contributors_enabled: false
+      created_at: 'Tue Mar 21 20:50:14 +0000 2006'
+      default_profile: false
+      default_profile_image: false
+      description: ''
+      entities:
+        description:
+          urls: []
+      favourites_count: 16960
+      follow_request_sent: null
+      followers_count: 4039998
+      following: null
+      friends_count: 2703
+      geo_enabled: true
+      has_extended_profile: true
+      id: 12
+      id_str: '12'
+      is_translation_enabled: false
+      is_translator: false
+      lang: en
+      listed_count: 27194
+      location: 'California, USA'
+      name: jack
+      notifications: null
+      profile_background_color: EBEBEB
+      profile_background_image_url: 'http://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_tile: false
+      profile_banner_url: 'https://pbs.twimg.com/profile_banners/12/1483046077'
+      profile_image_url: >-
+        http://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_image_url_https: >-
+        https://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_link_color: '990000'
+      profile_sidebar_border_color: DFDFDF
+      profile_sidebar_fill_color: F3F3F3
+      profile_text_color: '333333'
+      profile_use_background_image: true
+      protected: false
+      screen_name: jack
+      statuses_count: 21832
+      time_zone: Pacific Time (US & Canada)
+      translator_type: regular
+      url: null
+      utc_offset: -25200
+      verified: true
+  - _id: '859084815131455488'
+    contributors: null
+    coordinates: null
+    created_at: 'Mon May 01 16:39:15 +0000 2017'
+    entities:
+      hashtags: []
+      symbols: []
+      urls: []
+      user_mentions:
+        - id: 2195241
+          id_str: '2195241'
+          indices:
+            - 0
+            - 8
+          name: "Farhad Manjoo \uD83D\uDC23"
+          screen_name: fmanjoo
+    favorite_count: 16
+    favorited: false
+    geo: null
+    id: 859084815131455500
+    id_str: '859084815131455488'
+    in_reply_to_screen_name: fmanjoo
+    in_reply_to_status_id: 858737922551365600
+    in_reply_to_status_id_str: '858737922551365632'
+    in_reply_to_user_id: 2195241
+    in_reply_to_user_id_str: '2195241'
+    is_quote_status: false
+    lang: und
+    place: null
+    retweet_count: 1
+    retweeted: false
+    source: >-
+      <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    text: "@fmanjoo \uD83D\uDE0E"
+    truncated: false
+    user:
+      contributors_enabled: false
+      created_at: 'Tue Mar 21 20:50:14 +0000 2006'
+      default_profile: false
+      default_profile_image: false
+      description: ''
+      entities:
+        description:
+          urls: []
+      favourites_count: 16960
+      follow_request_sent: null
+      followers_count: 4039998
+      following: null
+      friends_count: 2703
+      geo_enabled: true
+      has_extended_profile: true
+      id: 12
+      id_str: '12'
+      is_translation_enabled: false
+      is_translator: false
+      lang: en
+      listed_count: 27194
+      location: 'California, USA'
+      name: jack
+      notifications: null
+      profile_background_color: EBEBEB
+      profile_background_image_url: 'http://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_tile: false
+      profile_banner_url: 'https://pbs.twimg.com/profile_banners/12/1483046077'
+      profile_image_url: >-
+        http://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_image_url_https: >-
+        https://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_link_color: '990000'
+      profile_sidebar_border_color: DFDFDF
+      profile_sidebar_fill_color: F3F3F3
+      profile_text_color: '333333'
+      profile_use_background_image: true
+      protected: false
+      screen_name: jack
+      statuses_count: 21832
+      time_zone: Pacific Time (US & Canada)
+      translator_type: regular
+      url: null
+      utc_offset: -25200
+      verified: true
+  - _id: '859030388429250560'
+    contributors: null
+    coordinates: null
+    created_at: 'Mon May 01 13:02:59 +0000 2017'
+    entities:
+      hashtags:
+        - indices:
+            - 38
+            - 51
+          text: pressfreedom
+      symbols: []
+      urls: []
+      user_mentions:
+        - id: 218984871
+          id_str: '218984871'
+          indices:
+            - 3
+            - 10
+          name: Policy
+          screen_name: policy
+    favorite_count: 0
+    favorited: false
+    geo: null
+    id: 859030388429250600
+    id_str: '859030388429250560'
+    in_reply_to_screen_name: null
+    in_reply_to_status_id: null
+    in_reply_to_status_id_str: null
+    in_reply_to_user_id: null
+    in_reply_to_user_id_str: null
+    is_quote_status: false
+    lang: en
+    place: null
+    retweet_count: 481
+    retweeted: false
+    retweeted_status:
+      contributors: null
+      coordinates: null
+      created_at: 'Mon May 01 12:21:54 +0000 2017'
+      entities:
+        hashtags:
+          - indices:
+              - 26
+              - 39
+            text: pressfreedom
+        symbols: []
+        urls:
+          - display_url: twitter.com/i/web/status/8…
+            expanded_url: 'https://twitter.com/i/web/status/859020050598170625'
+            indices:
+              - 125
+              - 148
+            url: 'https://t.co/mIrPWWidK9'
+        user_mentions: []
+      favorite_count: 1086
+      favorited: false
+      geo: null
+      id: 859020050598170600
+      id_str: '859020050598170625'
+      in_reply_to_screen_name: null
+      in_reply_to_status_id: null
+      in_reply_to_status_id_str: null
+      in_reply_to_user_id: null
+      in_reply_to_user_id_str: null
+      is_quote_status: false
+      lang: en
+      place: null
+      possibly_sensitive: false
+      retweet_count: 481
+      retweeted: false
+      source: '<a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>'
+      text: >-
+        Twitter strongly supports #pressfreedom &amp; the vital work journalists
+        do globally illuminating key civic issues &amp; sp…
+        https://t.co/mIrPWWidK9
+      truncated: true
+      user:
+        contributors_enabled: false
+        created_at: 'Tue Nov 23 16:45:21 +0000 2010'
+        default_profile: true
+        default_profile_image: false
+        description: The voice of Twitter's global public policy team
+        entities:
+          description:
+            urls: []
+        favourites_count: 18
+        follow_request_sent: null
+        followers_count: 291479
+        following: null
+        friends_count: 63
+        geo_enabled: true
+        has_extended_profile: false
+        id: 218984871
+        id_str: '218984871'
+        is_translation_enabled: false
+        is_translator: false
+        lang: en
+        listed_count: 790
+        location: ''
+        name: Policy
+        notifications: null
+        profile_background_color: C0DEED
+        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme1/bg.png'
+        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme1/bg.png'
+        profile_background_tile: false
+        profile_banner_url: 'https://pbs.twimg.com/profile_banners/218984871/1424904997'
+        profile_image_url: >-
+          http://pbs.twimg.com/profile_images/431583032827342848/A9aVHPI6_normal.png
+        profile_image_url_https: >-
+          https://pbs.twimg.com/profile_images/431583032827342848/A9aVHPI6_normal.png
+        profile_link_color: 1DA1F2
+        profile_sidebar_border_color: C0DEED
+        profile_sidebar_fill_color: DDEEF6
+        profile_text_color: '333333'
+        profile_use_background_image: true
+        protected: false
+        screen_name: policy
+        statuses_count: 1219
+        time_zone: Eastern Time (US & Canada)
+        translator_type: none
+        url: null
+        utc_offset: -14400
+        verified: true
+    source: >-
+      <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
+      iPhone</a>
+    text: >-
+      RT @policy: Twitter strongly supports #pressfreedom &amp; the vital work
+      journalists do globally illuminating key civic issues &amp; speaking
+      truth…
+    truncated: false
+    user:
+      contributors_enabled: false
+      created_at: 'Tue Mar 21 20:50:14 +0000 2006'
+      default_profile: false
+      default_profile_image: false
+      description: ''
+      entities:
+        description:
+          urls: []
+      favourites_count: 16960
+      follow_request_sent: null
+      followers_count: 4039998
+      following: null
+      friends_count: 2703
+      geo_enabled: true
+      has_extended_profile: true
+      id: 12
+      id_str: '12'
+      is_translation_enabled: false
+      is_translator: false
+      lang: en
+      listed_count: 27194
+      location: 'California, USA'
+      name: jack
+      notifications: null
+      profile_background_color: EBEBEB
+      profile_background_image_url: 'http://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme7/bg.gif'
+      profile_background_tile: false
+      profile_banner_url: 'https://pbs.twimg.com/profile_banners/12/1483046077'
+      profile_image_url: >-
+        http://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_image_url_https: >-
+        https://pbs.twimg.com/profile_images/839863609345794048/mkpdB9Tf_normal.jpg
+      profile_link_color: '990000'
+      profile_sidebar_border_color: DFDFDF
+      profile_sidebar_fill_color: F3F3F3
+      profile_text_color: '333333'
+      profile_use_background_image: true
+      protected: false
+      screen_name: jack
+      statuses_count: 21832
+      time_zone: Pacific Time (US & Canada)
+      translator_type: regular
+      url: null
+      utc_offset: -25200
+      verified: true
+user_id: 12
