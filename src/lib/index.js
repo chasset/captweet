@@ -58,18 +58,22 @@ export default class Captweet {
   get_first_tweets_of_timeline(query) {
     const captweet = this;
     return co(function*() {
-      let tweets = yield captweet.query('statuses/user_timeline', query);
-      let min, max;
-      tweets.map(function(tweet) {
-        tweet._id = tweet.id_str;
-        const id = bigInt(tweet.id_str);
-        console.log('Tweet ID:', id);
-        if (!min && !max) { min = max = id; }
-        if (min.greater(id)) { min = id; }
-        if (id.greater(max)) { max = id; }
-      });
-      return {tweets, min, max};
+      const raw_tweets = yield captweet.query('statuses/user_timeline', query);
+      const { tweets, min, max } = captweet.find_min_and_max_from_array_of_tweets(raw_tweets);
+      return { tweets, min, max };
     });
+  }
+
+  find_min_and_max_from_array_of_tweets(tweets) {
+    let min, max;
+    tweets.map(function(tweet) {
+      tweet._id = tweet.id_str;
+      const id = bigInt(tweet.id_str);
+      if (!min && !max) { min = max = id; }
+      if (min.greater(id)) { min = id; }
+      if (id.greater(max)) { max = id; }
+    });
+    return {tweets, min, max};
   }
 
   get_user_id_from_screen_name(user) {
