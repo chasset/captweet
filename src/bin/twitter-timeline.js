@@ -18,6 +18,7 @@ args
   .example('twitter timeline --screen-name @jack', 'Retrieve the id of the @jack account')
   .example('twitter timeline --all --user-id 12 --verbose', 'Retrieve the last 3200 tweets of @jack, showing the download progression')
   .example('twitter timeline --last --count 10 --user-id 12', 'Retrieve the last 10 tweets of @jack');
+
 const flags = args.parse(process.argv);
 
 const captweet = new Captweet(flags.iniFile, flags.verbose);
@@ -38,11 +39,13 @@ if (flags.last) {
     captweet.stop_refreshing();
     const date = new Date();
     const data = {
-      date: date.toISOString(),
-      length: tweets.length,
-      since_id: max.toString(),
-      max_id: min.add(-1).toString(),
-      user_id: flags.userId,
+      meta: {
+        date: date.toISOString(),
+        length: tweets.length,
+        since_id: max.toString(),
+        max_id: min.add(-1).toString(),
+        user_id: flags.userId,
+      },
       tweets: tweets,
     };
     const filename = sprintf("user-%s-%s.yaml", flags.userId, date.toISOString());
@@ -50,18 +53,19 @@ if (flags.last) {
   }).catch(function (error) {
     console.log(error);
   });
-}
-if (flags.all) {
+} else if (flags.all) {
   co(function* () {
     yield captweet.auto_refresh_rate_limit_status();
     const { user_id, timeline, since_id } = yield captweet.get_whole_timeline(flags.userId);
     captweet.stop_refreshing();
     const date = new Date();
     const data = {
-      date: date.toISOString(),
-      length: timeline.length,
-      since_id: since_id.toString(),
-      user_id: user_id,
+      meta: {
+        date: date.toISOString(),
+        length: timeline.length,
+        since_id: since_id.toString(),
+        user_id: user_id,
+      },
       tweets: timeline,
     };
     const filename = sprintf("user-%s-%s.yaml", user_id, date.toISOString());
@@ -69,9 +73,7 @@ if (flags.all) {
   }).catch(function (error) {
     console.log(error);
   });
-}
-
-if (flags.screenName) {
+} else if (flags.screenName) {
   co(function* () {
     yield captweet.auto_refresh_rate_limit_status();
     const id = yield captweet.get_user_id_from_screen_name(flags.screenName);
