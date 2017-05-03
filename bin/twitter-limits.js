@@ -12,7 +12,7 @@ var _args2 = _interopRequireDefault(_args);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_args2.default.option('ini-file', 'The path of your ini file');
+_args2.default.option('ini-file', 'The path of your ini file').example('twitter limits', 'Print the whole Rate limit status').example('twitter limits --ini-file ~/ini.yaml', 'Print the whole Rate limit status, using a specific ini file');
 var flags = _args2.default.parse(process.argv);
 
 var captweet = new _index2.default(flags.iniFile);
