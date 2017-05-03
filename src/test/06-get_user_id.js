@@ -5,7 +5,7 @@ import Captweet from '../lib/index.js';
 
 describe('get_user_id_from_screen_name()', function() {
 
-  it('download and transform correctly the data returned by Twitter', function(done) {
+  it('fetch the id of a user', function(done) {
     const captweet = new Captweet();
     captweet.refresh_rate_limit_status()
       .then(function() {
