@@ -35,7 +35,7 @@ gulp.task('default', function() {
   runSequence(
     'clean',
     'transcompile', 
-    //'test',
+    'test',
     'lint'
   );
 });
