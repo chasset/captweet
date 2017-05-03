@@ -26,4 +26,24 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
       done(error);
     });
   });
+
+  (0, _mocha.it)('returns an error when not enough resource', function (done) {
+    var captweet = new _index2.default();
+    captweet.rate_limit_status = {
+      resources: {
+        application: {
+          '/users/show/:id/test/': {
+            remaining: 0
+          }
+        }
+      }
+    };
+    captweet.query('users/show', { screen_name: '@mobitweet_' }).then(function (data) {
+      _unit2.default.fail('No check of resource!');
+      done();
+    }).catch(function (error) {
+      _unit2.default.error(error).string(error.message).is('No more resource. Wait a bit.');
+      done();
+    });
+  });
 });
