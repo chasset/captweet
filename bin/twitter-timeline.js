@@ -6,18 +6,28 @@ var _index = require('../lib/index.js');
 
 var _index2 = _interopRequireDefault(_index);
 
-var _args3 = require('args');
+var _args4 = require('args');
 
-var _args4 = _interopRequireDefault(_args3);
+var _args5 = _interopRequireDefault(_args4);
 
 var _co = require('co');
 
 var _co2 = _interopRequireDefault(_co);
 
+var _fs = require('fs');
+
+var _fs2 = _interopRequireDefault(_fs);
+
+var _jsYaml = require('js-yaml');
+
+var _jsYaml2 = _interopRequireDefault(_jsYaml);
+
+var _sprintfJs = require('sprintf-js');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_args4.default.option('ini-file', 'The path of your ini file').option('count', 'Number of tweets to download').option('last', 'Get only last tweets').option('verbose', 'Verbosity of the program').option('user-id', 'The ID of a twitter account');
-var flags = _args4.default.parse(process.argv);
+_args5.default.option('ini-file', 'The path of your ini file').option('count', 'Number of tweets to download').option('last', 'Get only last tweets').option('all', 'Get the whole timeline').option('verbose', 'Verbosity of the program').option('screen-name', 'The screen name of a twitter account').option('user-id', 'The ID of a twitter account').example('twitter timeline --screen-name @jack', 'Retrieve the id of the @jack account').example('twitter timeline --all --user-id 12 --verbose', 'Retrieve the last 3200 tweets of @jack, showing the download progression').example('twitter timeline --last --count 10 --user-id 12', 'Retrieve the last 10 tweets of @jack');
+var flags = _args5.default.parse(process.argv);
 
 var captweet = new _index2.default(flags.iniFile, flags.verbose);
 
@@ -32,7 +42,7 @@ if (flags.last) {
     include_rts: true
   };
   (0, _co2.default)(regeneratorRuntime.mark(function _callee() {
-    var _ref, tweets, min, max;
+    var _ref, tweets, min, max, date, data, filename;
 
     return regeneratorRuntime.wrap(function _callee$(_context) {
       while (1) {
@@ -51,13 +61,19 @@ if (flags.last) {
             min = _ref.min;
             max = _ref.max;
 
-            tweets.map(function (tweet) {
-              console.log('Tweet:', tweet.id_str);
-            });
             captweet.stop_refreshing();
-            console.log('Length:', tweets.length);
-            console.log('Min:', min.toString());
-            console.log('Max:', max.toString());
+            date = new Date();
+            data = {
+              date: date.toISOString(),
+              length: tweets.length,
+              since_id: max.toString(),
+              max_id: min.add(-1).toString(),
+              user_id: flags.userId,
+              tweets: tweets
+            };
+            filename = (0, _sprintfJs.sprintf)("user-%s-%s.yaml", flags.userId, date.toISOString());
+
+            saveToFile(filename, data);
 
           case 13:
           case 'end':
@@ -68,9 +84,10 @@ if (flags.last) {
   })).catch(function (error) {
     console.log(error);
   });
-} else {
+}
+if (flags.all) {
   (0, _co2.default)(regeneratorRuntime.mark(function _callee2() {
-    var _ref2, user_id, timeline, since_id;
+    var _ref2, user_id, timeline, since_id, date, data, filename;
 
     return regeneratorRuntime.wrap(function _callee2$(_context2) {
       while (1) {
@@ -90,11 +107,19 @@ if (flags.last) {
             since_id = _ref2.since_id;
 
             captweet.stop_refreshing();
-            console.log('Length:', timeline.length);
-            console.log('since_id:', since_id.toString());
-            console.log('user_id:', user_id);
+            date = new Date();
+            data = {
+              date: date.toISOString(),
+              length: timeline.length,
+              since_id: since_id.toString(),
+              user_id: user_id,
+              tweets: timeline
+            };
+            filename = (0, _sprintfJs.sprintf)("user-%s-%s.yaml", user_id, date.toISOString());
 
-          case 12:
+            saveToFile(filename, data);
+
+          case 13:
           case 'end':
             return _context2.stop();
         }
@@ -103,4 +128,40 @@ if (flags.last) {
   })).catch(function (error) {
     console.log(error);
   });
+}
+
+if (flags.screenName) {
+  (0, _co2.default)(regeneratorRuntime.mark(function _callee3() {
+    var id;
+    return regeneratorRuntime.wrap(function _callee3$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            _context3.next = 2;
+            return captweet.auto_refresh_rate_limit_status();
+
+          case 2:
+            _context3.next = 4;
+            return captweet.get_user_id_from_screen_name(flags.screenName);
+
+          case 4:
+            id = _context3.sent;
+
+            captweet.stop_refreshing();
+            console.log("User %s has id '%s'.", flags.screenName, id);
+
+          case 7:
+          case 'end':
+            return _context3.stop();
+        }
+      }
+    }, _callee3, this);
+  })).catch(function (error) {
+    console.log(error);
+  });
+}
+
+function saveToFile(filename, data) {
+  var dump = _jsYaml2.default.safeDump(data, { indent: 2, flowLevel: -1, sortKeys: true, lineWidth: 80, noRefs: false, noCompatMode: true });
+  _fs2.default.writeFileSync(filename, dump);
 }
