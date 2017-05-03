@@ -15,9 +15,9 @@ args
   .option('verbose', 'Verbosity of the program')
   .option('screen-name', 'The screen name of a twitter account')
   .option('user-id', 'The ID of a twitter account')
-  .example('twitter timeline --screen-name @jack', 'Retrieve the id of the @jack account')
-  .example('twitter timeline --all --user-id 12 --verbose', 'Retrieve the last 3200 tweets of @jack, showing the download progression')
-  .example('twitter timeline --last --count 10 --user-id 12', 'Retrieve the last 10 tweets of @jack');
+  .example('twitter timeline --screen-name=@jack', 'Retrieve the id of the @jack account')
+  .example('twitter timeline --all --verbose --user-id=12', 'Retrieve the last 3200 tweets of @jack, showing the download progression')
+  .example('twitter timeline --last --count=10 --user-id=12', 'Retrieve the last 10 tweets of @jack');
 
 const flags = args.parse(process.argv);
 
