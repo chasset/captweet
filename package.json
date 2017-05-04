@@ -5,11 +5,13 @@
   "main": "lib/index.js",
   "bin": {
     "twitter": "bin/twitter.js",
+    "twitter-tweet": "bin/twitter-tweet.js",
     "twitter-limits": "bin/twitter-limits.js",
     "twitter-timeline": "bin/twitter-timeline.js"
   },
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "mocha",
+    "tests": "mocha test/*.js"
   },
   "repository": {
     "type": "git",
