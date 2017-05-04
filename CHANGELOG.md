@@ -1,8 +1,7 @@
 # Change Log
 
-## [Unreleased](https://github.com/chasset/captweet/tree/HEAD)
-
-[Full Changelog](https://github.com/chasset/captweet/compare/v0.5.1...HEAD)
+## [v0.6.0](https://github.com/chasset/captweet/tree/v0.6.0) (2017-05-04)
+[Full Changelog](https://github.com/chasset/captweet/compare/v0.5.1...v0.6.0)
 
 **Implemented enhancements:**
 
