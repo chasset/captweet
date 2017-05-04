@@ -1,5 +1,16 @@
 # Change Log
 
+## [Unreleased](https://github.com/chasset/captweet/tree/HEAD)
+
+[Full Changelog](https://github.com/chasset/captweet/compare/v0.5.1...HEAD)
+
+**Implemented enhancements:**
+
+- Download tweet metadata from a list of tweet ids \(statuses/lookup\) [\#2](https://github.com/chasset/captweet/issues/2)
+
+## [v0.5.1](https://github.com/chasset/captweet/tree/v0.5.1) (2017-05-04)
+[Full Changelog](https://github.com/chasset/captweet/compare/v0.5.0...v0.5.1)
+
 ## [v0.5.0](https://github.com/chasset/captweet/tree/v0.5.0) (2017-05-04)
 [Full Changelog](https://github.com/chasset/captweet/compare/v0.4.0...v0.5.0)
 
