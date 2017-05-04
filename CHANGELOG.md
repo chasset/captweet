@@ -1,5 +1,19 @@
 # Change Log
 
+## [v0.5.0](https://github.com/chasset/captweet/tree/v0.5.0) (2017-05-04)
+[Full Changelog](https://github.com/chasset/captweet/compare/v0.4.0...v0.5.0)
+
+**Implemented enhancements:**
+
+- Add a function to launch only one test file [\#18](https://github.com/chasset/captweet/issues/18)
+- Separate linting and testing during the development process [\#17](https://github.com/chasset/captweet/issues/17)
+- Add a script to release a new version [\#3](https://github.com/chasset/captweet/issues/3)
+- Download tweet metadata from a tweet id \(statuses/show\) [\#1](https://github.com/chasset/captweet/issues/1)
+
+**Fixed bugs:**
+
+- Rate limit status [\#16](https://github.com/chasset/captweet/issues/16)
+
 ## [v0.4.0](https://github.com/chasset/captweet/tree/v0.4.0) (2017-05-03)
 [Full Changelog](https://github.com/chasset/captweet/compare/v0.3.0...v0.4.0)
 
