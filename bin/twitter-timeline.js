@@ -18,10 +18,6 @@ var _fs = require('fs');
 
 var _fs2 = _interopRequireDefault(_fs);
 
-var _jsYaml = require('js-yaml');
-
-var _jsYaml2 = _interopRequireDefault(_jsYaml);
-
 var _sprintfJs = require('sprintf-js');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -70,13 +66,14 @@ if (flags.last) {
                 length: tweets.length,
                 since_id: max.toString(),
                 max_id: min.add(-1).toString(),
-                user_id: flags.userId
+                user_id: flags.userId,
+                type: 'timeline'
               },
-              tweets: tweets
+              data: tweets
             };
-            filename = (0, _sprintfJs.sprintf)("user-%s-%s.yaml", flags.userId, date.toISOString());
+            filename = (0, _sprintfJs.sprintf)("user-%s-%s.json", flags.userId, date.toISOString());
 
-            saveToFile(filename, data);
+            _fs2.default.writeFileSync(filename, JSON.stringify(data, null, 2));
 
           case 13:
           case 'end':
@@ -115,13 +112,14 @@ if (flags.last) {
                 date: date.toISOString(),
                 length: timeline.length,
                 since_id: since_id.toString(),
-                user_id: user_id
+                user_id: user_id,
+                type: 'timeline'
               },
-              tweets: timeline
+              data: timeline
             };
-            filename = (0, _sprintfJs.sprintf)("user-%s-%s.yaml", user_id, date.toISOString());
+            filename = (0, _sprintfJs.sprintf)("user-%s-%s.json", user_id, date.toISOString());
 
-            saveToFile(filename, data);
+            _fs2.default.writeFileSync(filename, JSON.stringify(data, null, 2));
 
           case 13:
           case 'end':
@@ -161,9 +159,4 @@ if (flags.last) {
   })).catch(function (error) {
     console.log(error);
   });
-}
-
-function saveToFile(filename, data) {
-  var dump = _jsYaml2.default.safeDump(data, { indent: 2, flowLevel: -1, sortKeys: true, lineWidth: 80, noRefs: false, noCompatMode: true });
-  _fs2.default.writeFileSync(filename, dump);
 }
