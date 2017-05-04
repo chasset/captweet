@@ -26,6 +26,14 @@ export default class Captweet {
     this.verbose = verbose;
   }
 
+  get_tweet(tweet_id) {
+    const captweet = this;
+    return co(function*() {
+      const data = yield captweet.query('statuses/show', { id: tweet_id, trim_user: false, include_entities: true });
+      return data;
+    });
+  }
+
   get_whole_timeline(user_id, since_id) {
     const captweet = this;
     return co(function*() {
