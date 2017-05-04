@@ -4,7 +4,6 @@ import Captweet from '../lib/index.js';
 import args from 'args';
 import co from 'co';
 import fs from 'fs';
-import yaml from 'js-yaml';
 import { sprintf } from 'sprintf-js';
 
 args
@@ -45,11 +44,12 @@ if (flags.last) {
         since_id: max.toString(),
         max_id: min.add(-1).toString(),
         user_id: flags.userId,
+        type: 'timeline',
       },
-      tweets: tweets,
+      data: tweets,
     };
-    const filename = sprintf("user-%s-%s.yaml", flags.userId, date.toISOString());
-    saveToFile(filename, data);
+    const filename = sprintf("user-%s-%s.json", flags.userId, date.toISOString());
+    fs.writeFileSync(filename, JSON.stringify(data, null, 2));
   }).catch(function (error) {
     console.log(error);
   });
@@ -65,11 +65,12 @@ if (flags.last) {
         length: timeline.length,
         since_id: since_id.toString(),
         user_id: user_id,
+        type: 'timeline',
       },
-      tweets: timeline,
+      data: timeline,
     };
-    const filename = sprintf("user-%s-%s.yaml", user_id, date.toISOString());
-    saveToFile(filename, data);
+    const filename = sprintf("user-%s-%s.json", user_id, date.toISOString());
+    fs.writeFileSync(filename, JSON.stringify(data, null, 2));
   }).catch(function (error) {
     console.log(error);
   });
@@ -83,8 +84,3 @@ if (flags.last) {
     console.log(error);
   });
 }
-
-function saveToFile(filename, data) {
-  const dump = yaml.safeDump(data, { indent: 2, flowLevel: -1, sortKeys: true, lineWidth: 80, noRefs: false, noCompatMode: true });
-  fs.writeFileSync(filename, dump);
-} 
