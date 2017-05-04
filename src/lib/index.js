@@ -34,6 +34,19 @@ export default class Captweet {
     });
   }
 
+  get_tweets_from_ids(ids) {
+    const captweet = this;
+    return co(function*() {
+      let tweets = [];
+      for (let i = 0; i < ids.length; i += 100) {
+        const p = ids.slice(i, i + 100).join(',');
+        const data = yield captweet.query('statuses/lookup', { id: p, trim_user: false, include_entities: true });
+        tweets = tweets.concat(data);
+      }
+      return tweets;
+    });
+  }
+
   get_whole_timeline(user_id, since_id) {
     const captweet = this;
     return co(function*() {
