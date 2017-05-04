@@ -1,31 +1,16 @@
 # Change Log
 
-## [0.4.0](https://github.com/chasset/captweet/tree/0.4.0) (2017-05-03)
-[Full Changelog](https://github.com/chasset/captweet/compare/v0.4.0...0.4.0)
-
 ## [v0.4.0](https://github.com/chasset/captweet/tree/v0.4.0) (2017-05-03)
-[Full Changelog](https://github.com/chasset/captweet/compare/0.3.0...v0.4.0)
-
-## [0.3.0](https://github.com/chasset/captweet/tree/0.3.0) (2017-05-03)
-[Full Changelog](https://github.com/chasset/captweet/compare/v0.3.0...0.3.0)
+[Full Changelog](https://github.com/chasset/captweet/compare/v0.3.0...v0.4.0)
 
 ## [v0.3.0](https://github.com/chasset/captweet/tree/v0.3.0) (2017-05-03)
-[Full Changelog](https://github.com/chasset/captweet/compare/0.2.1...v0.3.0)
-
-## [0.2.1](https://github.com/chasset/captweet/tree/0.2.1) (2017-05-03)
-[Full Changelog](https://github.com/chasset/captweet/compare/v0.2.1...0.2.1)
+[Full Changelog](https://github.com/chasset/captweet/compare/v0.2.1...v0.3.0)
 
 ## [v0.2.1](https://github.com/chasset/captweet/tree/v0.2.1) (2017-05-03)
-[Full Changelog](https://github.com/chasset/captweet/compare/0.2.0...v0.2.1)
-
-## [0.2.0](https://github.com/chasset/captweet/tree/0.2.0) (2017-05-03)
-[Full Changelog](https://github.com/chasset/captweet/compare/v0.2.0...0.2.0)
+[Full Changelog](https://github.com/chasset/captweet/compare/v0.2.0...v0.2.1)
 
 ## [v0.2.0](https://github.com/chasset/captweet/tree/v0.2.0) (2017-05-03)
-[Full Changelog](https://github.com/chasset/captweet/compare/0.1.0...v0.2.0)
-
-## [0.1.0](https://github.com/chasset/captweet/tree/0.1.0) (2017-05-01)
-[Full Changelog](https://github.com/chasset/captweet/compare/v0.1.0...0.1.0)
+[Full Changelog](https://github.com/chasset/captweet/compare/v0.1.0...v0.2.0)
 
 ## [v0.1.0](https://github.com/chasset/captweet/tree/v0.1.0) (2017-05-01)
 
