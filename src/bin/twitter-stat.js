@@ -5,21 +5,45 @@ import fs from 'fs';
 
 args
   .option('fields', "The fields included in tweet metadata to extract")
-  .option('result-files', "The file containing previous results built by this program")
-  .option('verbose', 'Verbosity of the program')
-  .example('twitter get --verbose --fields "id_str,text,user.screen_name" --result-files ~/*.json', 'Extract the tweet id, its text and the screen_name of its author in all files ending with json');
+  .option('sort', 'Ascending (1) or decreasing (-1) order', 1)
+  .option('files', "An array of files containing previous results built by this program", [])
+  .example('twitter stat --fields "id_str,text,user.screen_name" --result-file ~/tweets.json', 'Extract the tweet id, its text and the screen_name of its author from tweets.json');
 
 const flags = args.parse(process.argv);
 
-let result = flags.resultFiles
+let result = flags.files
   .map(function(file) { return fs.readFileSync(file, 'utf8'); })
+  .map(function(content) { return JSON.parse(content); })
   .map(function(json) { return json.data; })
+  .reduce(function(a, b) { return a.concat(b); })
+  .sort(function(a, b) {
+    if (a.id_str === b.id_str) { return 0 }
+    return a.id_str > b.id_str ? 1*flags.sort : -1*flags.sort; })
   .map(function(tweet) {
     return flags.fields
       .split(',')
-      .map(function(field) { return tweet[field]; })
+      .map(function(field) {
+        try {
+          switch(field) {
+            case 'created_at':
+              return new Date(tweet.retweeted_status ? tweet.retweeted_status.created_at : tweet.created_at).toISOString();
+            case 'user.screen_name':
+              return tweet.retweeted_status ? tweet.retweeted_status.user.screen_name : tweet.user.screen_name;
+            case 'user.id':
+            case 'user.id_str': 
+              return tweet.retweeted_status ? tweet.retweeted_status.user.id_str : tweet.user.id_str;
+            case 'text':
+              return (tweet.retweeted_status ? tweet.retweeted_status.text : tweet.text).replace(/\n/g, ' ').replace(/;/g, ',');
+            default: 
+              return tweet[field] ? tweet[field].replace(/\n/g, ' ').replace(/;/g, ',') : undefined;
+          }
+        } catch(error) {
+          return undefined;
+        }
+      })
       .join(';');
-  });
+  })
+  .join('\n');
 
 result = flags.fields.replace(/,/g, ';').concat('\n', result);
 
