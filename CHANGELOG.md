@@ -1,5 +1,18 @@
 # Change Log
 
+## [Unreleased](https://github.com/chasset/captweet/tree/HEAD)
+
+[Full Changelog](https://github.com/chasset/captweet/compare/v0.6.1...HEAD)
+
+**Implemented enhancements:**
+
+- Simplify the output of twitter --help [\#21](https://github.com/chasset/captweet/issues/21)
+- Add verbosity in command twitter tweet [\#20](https://github.com/chasset/captweet/issues/20)
+
+**Merged pull requests:**
+
+- Feature/twitter tweet improvements [\#23](https://github.com/chasset/captweet/pull/23) ([chasset](https://github.com/chasset))
+
 ## [v0.6.1](https://github.com/chasset/captweet/tree/v0.6.1) (2017-05-04)
 [Full Changelog](https://github.com/chasset/captweet/compare/v0.6.0...v0.6.1)
 
