@@ -12,7 +12,7 @@ var _fs2 = _interopRequireDefault(_fs);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_args2.default.option('fields', "The fields included in tweet metadata to extract").option('sort', 'Ascending (1) or decreasing (-1) order', 1).option('files', "An array of files containing previous results built by this program", []).example('twitter stat --fields "id_str,text,user.screen_name" --result-file ~/tweets.json', 'Extract the tweet id, its text and the screen_name of its author from tweets.json');
+_args2.default.option('fields', "The fields included in tweet metadata to extract").option('sort', 'Ascending (1) or decreasing (-1) order', 1).option('files', "An array of files containing previous results built by this program", []).example('twitter stat --fields "id_str,text,user.screen_name" --files ~/tweets0.json  --files ~/tweets1.json', 'Extract the tweet id, its text and the screen_name of its author from tweets.json');
 
 var flags = _args2.default.parse(process.argv);
 
