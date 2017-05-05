@@ -26,7 +26,7 @@ var _jsYaml2 = _interopRequireDefault(_jsYaml);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_args4.default.option('id', "The ID of a tweet to download (append a 'T' before the 64bits integer ID)").option('ids-file', "The file containing the IDs of tweet to retrieve").example('twitter get --ids-file ~/ids.txt', 'Retrieve the metadata of the tweet IDs included in the file').example('twitter get --id T20', 'Retrieve the metadata of the tweet 20');
+_args4.default.option('id', "The ID of a tweet to download (append a 'T' before the 64bits integer ID)").option('ids-file', "The file containing the IDs of tweet to retrieve").option('verbose', 'Verbosity of the program').example('twitter get --verbose --ids-file ~/ids.txt', 'Retrieve the metadata of the tweet IDs included in the file').example('twitter get --id T20', 'Retrieve the metadata of the tweet 20');
 
 var flags = _args4.default.parse(process.argv);
 
@@ -87,7 +87,10 @@ if (flags.idsFile) {
             json = {
               meta: {
                 date: date,
-                length: tweets.length,
+                length: {
+                  requested: ids.length,
+                  retrieved: tweets.length
+                },
                 type: 'tweet',
                 ids: ids
               },

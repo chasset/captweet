@@ -40,8 +40,14 @@ export default class Captweet {
       let tweets = [];
       for (let i = 0; i < ids.length; i += 100) {
         const p = ids.slice(i, i + 100).join(',');
-        const data = yield captweet.query('statuses/lookup', { id: p, trim_user: false, include_entities: true });
+        const data = yield captweet.query('statuses/lookup', { id: p });
         tweets = tweets.concat(data);
+        if (captweet.verbose) {
+          console.log(
+            'Tweets metadata retrieved for ids between index %s and %s (%s tweets), which is since the beginning %s tweets (%s\%)', 
+            i, i+100, data.length, tweets.length, Math.round(tweets.length/(i+100)*100)
+          ); 
+        }
       }
       return tweets;
     });
