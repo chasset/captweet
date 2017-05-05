@@ -10,7 +10,8 @@ import yaml from 'js-yaml';
 args
   .option('id', "The ID of a tweet to download (append a 'T' before the 64bits integer ID)")
   .option('ids-file', "The file containing the IDs of tweet to retrieve")
-  .example('twitter get --ids-file ~/ids.txt', 'Retrieve the metadata of the tweet IDs included in the file')
+  .option('verbose', 'Verbosity of the program')
+  .example('twitter get --verbose --ids-file ~/ids.txt', 'Retrieve the metadata of the tweet IDs included in the file')
   .example('twitter get --id T20', 'Retrieve the metadata of the tweet 20');
 
 const flags = args.parse(process.argv);
@@ -39,7 +40,10 @@ if (flags.idsFile) {
     const json = {
       meta: {
         date: date,
-        length: tweets.length,
+        length: {
+          requested: ids.length,
+          retrieved: tweets.length,
+        },
         type: 'tweet',
         ids: ids,
       },
