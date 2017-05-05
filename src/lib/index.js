@@ -29,7 +29,7 @@ export default class Captweet {
   get_tweet(tweet_id) {
     const captweet = this;
     return co(function*() {
-      const data = yield captweet.query('statuses/show', { id: tweet_id, trim_user: false, include_entities: true });
+      const data = yield captweet.query('statuses/show', { id: tweet_id, trim_user: false });
       return data;
     });
   }
@@ -40,7 +40,7 @@ export default class Captweet {
       let tweets = [];
       for (let i = 0; i < ids.length; i += 100) {
         const p = ids.slice(i, i + 100).join(',');
-        const data = yield captweet.query('statuses/lookup', { id: p });
+        const data = yield captweet.query('statuses/lookup', { id: p, trim_user: false });
         tweets = tweets.concat(data);
         if (captweet.verbose) {
           console.log(
@@ -63,7 +63,7 @@ export default class Captweet {
       let query = {
         user_id: user_id,
         count: count, 
-        trim_user: true,
+        trim_user: false,
         exclude_replies: false,
         contributor_details: true,
         include_rts: true,
