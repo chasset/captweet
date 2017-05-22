@@ -17,7 +17,7 @@ let result = flags.files
   .map(function(json) { return json.data; })
   .reduce(function(a, b) { return a.concat(b); })
   .sort(function(a, b) {
-    if (a.id_str === b.id_str) { return 0 }
+    if (a.id_str === b.id_str) { return 0; }
     return a.id_str > b.id_str ? 1*flags.sort : -1*flags.sort; })
   .map(function(tweet) {
     return flags.fields
@@ -35,12 +35,13 @@ let result = flags.files
             case 'text':
               return (tweet.retweeted_status ? tweet.retweeted_status.text : tweet.text).replace(/\n/g, ' ').replace(/;/g, ',');
             default: 
-              return tweet[field] ? tweet[field].replace(/\n/g, ' ').replace(/;/g, ',') : undefined;
+              return tweet[field] ? tweet[field] : undefined;
           }
         } catch(error) {
           return undefined;
         }
       })
+      .map(function(value) { return '"' + value + '"'; })
       .join(';');
   })
   .join('\n');

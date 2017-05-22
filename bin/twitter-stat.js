@@ -43,11 +43,13 @@ var result = flags.files.map(function (file) {
         case 'text':
           return (tweet.retweeted_status ? tweet.retweeted_status.text : tweet.text).replace(/\n/g, ' ').replace(/;/g, ',');
         default:
-          return tweet[field] ? tweet[field].replace(/\n/g, ' ').replace(/;/g, ',') : undefined;
+          return tweet[field] ? tweet[field] : undefined;
       }
     } catch (error) {
       return undefined;
     }
+  }).map(function (value) {
+    return '"' + value + '"';
   }).join(';');
 }).join('\n');
 

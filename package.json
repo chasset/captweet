@@ -7,6 +7,7 @@
     "twitter": "bin/twitter.js",
     "twitter-tweet": "bin/twitter-tweet.js",
     "twitter-limits": "bin/twitter-limits.js",
+    "twitter-stat": "bin/twitter-stat.js",
     "twitter-timeline": "bin/twitter-timeline.js"
   },
   "scripts": {
